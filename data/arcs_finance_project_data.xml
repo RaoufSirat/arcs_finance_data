@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- Project level rows, generated from the ARCS NAV "Project Codes"         -->
+    <!-- dimension. Code 1000 ("Non project Dimension") is the source file's     -->
+    <!-- own placeholder for "no project" and is intentionally not imported -     -->
+    <!-- the Project field is simply left blank on such lines. Each program_id    -->
+    <!-- references a record from arcs_finance_program_data.xml, loaded first     -->
+    <!-- (see __manifest__.py). Regenerate with tools/gen_data.py.                -->
+
+    <record id="aa_project_1010" model="account.analytic.account">
+        <field name="name">President Office ????</field>
+        <field name="code">1010</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1010" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1010"/>
+    </record>
+
+    <record id="aa_project_1011" model="account.analytic.account">
+        <field name="name">Chief of Staff ???? ????</field>
+        <field name="code">1011</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1011" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1011"/>
+    </record>
+
+    <record id="aa_project_1012" model="account.analytic.account">
+        <field name="name">President Advisors ??????? ????</field>
+        <field name="code">1012</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1012" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1012"/>
+    </record>
+
+    <record id="aa_project_1013" model="account.analytic.account">
+        <field name="name">Law Committee ????? ?????</field>
+        <field name="code">1013</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1013" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1013"/>
+    </record>
+
+    <record id="aa_project_1020" model="account.analytic.account">
+        <field name="name">Vice President ???????</field>
+        <field name="code">1020</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1020" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1020"/>
+    </record>
+
+    <record id="aa_project_1030" model="account.analytic.account">
+        <field name="name">Secretary General ??????????</field>
+        <field name="code">1030</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1030" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1030"/>
+    </record>
+
+    <record id="aa_project_1040" model="account.analytic.account">
+        <field name="name">Logistics ???????</field>
+        <field name="code">1040</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1040" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1040"/>
+    </record>
+
+    <record id="aa_project_1050" model="account.analytic.account">
+        <field name="name">Internal Audit  ????? ?????</field>
+        <field name="code">1050</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1050" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1050"/>
+    </record>
+
+    <record id="aa_project_1060" model="account.analytic.account">
+        <field name="name">Property ?????</field>
+        <field name="code">1060</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1060" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1060"/>
+    </record>
+
+    <record id="aa_project_1070" model="account.analytic.account">
+        <field name="name">Control ??????</field>
+        <field name="code">1070</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1070" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1070"/>
+    </record>
+
+    <record id="aa_project_1080" model="account.analytic.account">
+        <field name="name">IT ?? ??</field>
+        <field name="code">1080</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1080" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1080"/>
+    </record>
+
+    <record id="aa_project_1090" model="account.analytic.account">
+        <field name="name">HR ????? ????</field>
+        <field name="code">1090</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1090" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1090"/>
+    </record>
+
+    <record id="aa_project_1100" model="account.analytic.account">
+        <field name="name">Finance ????</field>
+        <field name="code">1100</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1100" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1100"/>
+    </record>
+
+    <record id="aa_project_1110" model="account.analytic.account">
+        <field name="name">Kindergarten ????????</field>
+        <field name="code">1110</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1110" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1110"/>
+    </record>
+
+    <record id="aa_project_1120" model="account.analytic.account">
+        <field name="name">School ????</field>
+        <field name="code">1120</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1120" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1120"/>
+    </record>
+
+    <record id="aa_project_1190" model="account.analytic.account">
+        <field name="name">WIP</field>
+        <field name="code">1190</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1190" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1190"/>
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="aa_project_1200" model="account.analytic.account">
+        <field name="name">Core structure</field>
+        <field name="code">1200</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1200" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1200"/>
+    </record>
+
+    <record id="aa_project_1210" model="account.analytic.account">
+        <field name="name">Provincial Assembly  ????? ?????</field>
+        <field name="code">1210</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1210" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1210"/>
+    </record>
+
+    <record id="aa_project_1211" model="account.analytic.account">
+        <field name="name">Gender dept ????? ????</field>
+        <field name="code">1211</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1211" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1211"/>
+    </record>
+
+    <record id="aa_project_1212" model="account.analytic.account">
+        <field name="name">Gender for SERDMC (????? ????? ????? ???????)</field>
+        <field name="code">1212</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1212" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1212"/>
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="aa_project_1215" model="account.analytic.account">
+        <field name="name">Website (Spokesperson Office)</field>
+        <field name="code">1215</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1215" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1215"/>
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="aa_project_1216" model="account.analytic.account">
+        <field name="name">Resources Mobilization ????? ???? ?????</field>
+        <field name="code">1216</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1216" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1216"/>
+    </record>
+
+    <record id="aa_project_1217" model="account.analytic.account">
+        <field name="name">Branch Development Dept. ????? ?????? ??????????</field>
+        <field name="code">1217</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1217" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1217"/>
+    </record>
+
+    <record id="aa_project_1218" model="account.analytic.account">
+        <field name="name">Int. Relation. Department ????? ????? ??? ??????</field>
+        <field name="code">1218</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1218" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1218"/>
+    </record>
+
+    <record id="aa_project_1220" model="account.analytic.account">
+        <field name="name">Safety &amp; Security Dept. ?????? ? ???????</field>
+        <field name="code">1220</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1220" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1220"/>
+    </record>
+
+    <record id="aa_project_1230" model="account.analytic.account">
+        <field name="name">Guaidance ???? ? ?????</field>
+        <field name="code">1230</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1230" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1230"/>
+    </record>
+
+    <record id="aa_project_1240" model="account.analytic.account">
+        <field name="name">Contracts ( Procurment ) ?????????</field>
+        <field name="code">1240</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_1240" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_1240"/>
+    </record>
+
+    <record id="aa_project_co01" model="account.analytic.account">
+        <field name="name">Covid 19 HP</field>
+        <field name="code">CO01</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_co01" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_co01"/>
+        <field name="program_id" ref="project_co00"/>
+    </record>
+
+    <record id="aa_project_co02" model="account.analytic.account">
+        <field name="name">Covid 19 DM</field>
+        <field name="code">CO02</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_co02" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_co02"/>
+        <field name="program_id" ref="project_co00"/>
+    </record>
+
+    <record id="aa_project_dm01" model="account.analytic.account">
+        <field name="name">Mines &amp; Risk Education Project</field>
+        <field name="code">DM01</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm01" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm01"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm02" model="account.analytic.account">
+        <field name="name">Food for Work Project ( ??? ?? ????? ???)</field>
+        <field name="code">DM02</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm02" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm02"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm03" model="account.analytic.account">
+        <field name="name">Vocational Training Project ( ???????? ?????)</field>
+        <field name="code">DM03</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm03" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm03"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm04" model="account.analytic.account">
+        <field name="name">CBDRR Project ( ???? ??? ?? ?????)</field>
+        <field name="code">DM04</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm04" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm04"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm05" model="account.analytic.account">
+        <field name="name">CBDP Project ( ?????)</field>
+        <field name="code">DM05</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm05" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm05"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm06" model="account.analytic.account">
+        <field name="name">Disaster Preparedness Project  (????? ?? ?? ?????)</field>
+        <field name="code">DM06</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm06" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm06"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm07" model="account.analytic.account">
+        <field name="name">Disaster Response Project ( ???? ???  ?? ?????)</field>
+        <field name="code">DM07</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm07" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm07"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm08" model="account.analytic.account">
+        <field name="name">Recovery Project ( ?????)</field>
+        <field name="code">DM08</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm08" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm08"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm09" model="account.analytic.account">
+        <field name="name">Mortal Remains Transfer Project ( ?????? ?????)</field>
+        <field name="code">DM09</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm09" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm09"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm10" model="account.analytic.account">
+        <field name="name">Ecosec &amp; IDPs Project (?????)</field>
+        <field name="code">DM10</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm10" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm10"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm11" model="account.analytic.account">
+        <field name="name">Preparedness &amp; Response Project (????? ?? ? ????)</field>
+        <field name="code">DM11</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm11" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm11"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm12" model="account.analytic.account">
+        <field name="name">Emergency Operation Centre Project ( ???? ?????? )</field>
+        <field name="code">DM12</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm12" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm12"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm13" model="account.analytic.account">
+        <field name="name">Admin Cost</field>
+        <field name="code">DM13</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm13" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm13"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm14" model="account.analytic.account">
+        <field name="name">DM Cash Assistance</field>
+        <field name="code">DM14</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm14" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm14"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm15" model="account.analytic.account">
+        <field name="name">DM In-Kind Assistance</field>
+        <field name="code">DM15</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm15" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm15"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm16" model="account.analytic.account">
+        <field name="name">SERDMC (????? ????? ????? ???????)</field>
+        <field name="code">DM16</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm16" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm16"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm17" model="account.analytic.account">
+        <field name="name">Badakhshan Argo Land Slide</field>
+        <field name="code">DM17</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm17" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm17"/>
+        <field name="program_id" ref="project_dm00"/>
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="aa_project_dm18" model="account.analytic.account">
+        <field name="name">Asylum Seekers</field>
+        <field name="code">DM18</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm18" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm18"/>
+        <field name="program_id" ref="project_dm00"/>
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="aa_project_dm19" model="account.analytic.account">
+        <field name="name">ACAP III Unit ?????? ???? ?? ????? ?????? ????</field>
+        <field name="code">DM19</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm19" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm19"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm21" model="account.analytic.account">
+        <field name="name">School Safety Projects ??????? ?????</field>
+        <field name="code">DM21</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm21" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm21"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm23" model="account.analytic.account">
+        <field name="name">RFL - Restoring Family Link ????? ???? ????? ?? ??</field>
+        <field name="code">DM23</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm23" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm23"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm24" model="account.analytic.account">
+        <field name="name">Disaster Risk Reduction &amp; Climate ???? ?????</field>
+        <field name="code">DM24</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm24" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm24"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm25" model="account.analytic.account">
+        <field name="name">DM25</field>
+        <field name="code">DM25</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm25" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm25"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm26" model="account.analytic.account">
+        <field name="name">Tracing Projects ????? ??????</field>
+        <field name="code">DM26</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm26" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm26"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm27" model="account.analytic.account">
+        <field name="name">Agreecultural project</field>
+        <field name="code">DM27</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm27" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm27"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_dm99" model="account.analytic.account">
+        <field name="name">DM Salary</field>
+        <field name="code">DM99</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm99" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_dm99"/>
+        <field name="program_id" ref="project_dm00"/>
+    </record>
+
+    <record id="aa_project_hp01" model="account.analytic.account">
+        <field name="name">Clinics Project ( ????? ????? ??)</field>
+        <field name="code">HP01</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp01" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp01"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp02" model="account.analytic.account">
+        <field name="name">HIV/AIDS Project ( ????? ?? ?? ??)</field>
+        <field name="code">HP02</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp02" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp02"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp03" model="account.analytic.account">
+        <field name="name">Community Based first Health Aid (CBFHA) Project</field>
+        <field name="code">HP03</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp03" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp03"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp04" model="account.analytic.account">
+        <field name="name">Comp. Com. Based Health Intervention Proj. (CCBHI)</field>
+        <field name="code">HP04</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp04" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp04"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp05" model="account.analytic.account">
+        <field name="name">Mobile Health Team Project ( ??? ??? ?????)</field>
+        <field name="code">HP05</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp05" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp05"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp06" model="account.analytic.account">
+        <field name="name">Hospital Project ????? ???????</field>
+        <field name="code">HP06</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp06" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp06"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp07" model="account.analytic.account">
+        <field name="name">Congenital Hearth Defect (CHD) Project</field>
+        <field name="code">HP07</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp07" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp07"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp08" model="account.analytic.account">
+        <field name="name">Pharmacy Project ( ????? ??????)</field>
+        <field name="code">HP08</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp08" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp08"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp09" model="account.analytic.account">
+        <field name="name">Health Manage. Info. System (HMIS) Project</field>
+        <field name="code">HP09</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp09" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp09"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp10" model="account.analytic.account">
+        <field name="name">German Peace Village</field>
+        <field name="code">HP10</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp10" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp10"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp11" model="account.analytic.account">
+        <field name="name">Admin Cost</field>
+        <field name="code">HP11</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp11" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp11"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp12" model="account.analytic.account">
+        <field name="name">Psycho Social support</field>
+        <field name="code">HP12</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp12" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp12"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp13" model="account.analytic.account">
+        <field name="name">SERDMC (???? ????? ????? ???????)</field>
+        <field name="code">HP13</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp13" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp13"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp14" model="account.analytic.account">
+        <field name="name">MISP ???? ????? ??? ?????? ?? ???? ????</field>
+        <field name="code">HP14</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp14" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp14"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp15" model="account.analytic.account">
+        <field name="name">Polio ?????</field>
+        <field name="code">HP15</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp15" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp15"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp16" model="account.analytic.account">
+        <field name="name">Wash Project</field>
+        <field name="code">HP16</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp16" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp16"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_hp99" model="account.analytic.account">
+        <field name="name">HP Salary ?????? ???? ? ??????</field>
+        <field name="code">HP99</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp99" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_hp99"/>
+        <field name="program_id" ref="project_hp00"/>
+    </record>
+
+    <record id="aa_project_ird01" model="account.analytic.account">
+        <field name="name">Magazine/Books/News letter Project( ???????)</field>
+        <field name="code">IRD01</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird01" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird01"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird02" model="account.analytic.account">
+        <field name="name">Conduct meeting with leadership Project( ????? )</field>
+        <field name="code">IRD02</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird02" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird02"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird03" model="account.analytic.account">
+        <field name="name">Tracing Projects ????? ??????</field>
+        <field name="code">IRD03</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird03" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird03"/>
+        <field name="program_id" ref="project_ird00"/>
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="aa_project_ird04" model="account.analytic.account">
+        <field name="name">Workshops and trainings Project ( ???????? ??????)</field>
+        <field name="code">IRD04</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird04" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird04"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird05" model="account.analytic.account">
+        <field name="name">Museum Project</field>
+        <field name="code">IRD05</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird05" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird05"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird06" model="account.analytic.account">
+        <field name="name">Training for Secure Access</field>
+        <field name="code">IRD06</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird06" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird06"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird07" model="account.analytic.account">
+        <field name="name">Health care in danger Project</field>
+        <field name="code">IRD07</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird07" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird07"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird08" model="account.analytic.account">
+        <field name="name">Admin Cost</field>
+        <field name="code">IRD08</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird08" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird08"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird09" model="account.analytic.account">
+        <field name="name">8th May</field>
+        <field name="code">IRD09</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird09" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird09"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird10" model="account.analytic.account">
+        <field name="name">Welcome dept ???????</field>
+        <field name="code">IRD10</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird10" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird10"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird11" model="account.analytic.account">
+        <field name="name">Social Media ( Website, Facebook.....)</field>
+        <field name="code">IRD11</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird11" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird11"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_ird99" model="account.analytic.account">
+        <field name="name">IRD Salary</field>
+        <field name="code">IRD99</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird99" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_ird99"/>
+        <field name="program_id" ref="project_ird00"/>
+    </record>
+
+    <record id="aa_project_mp01" model="account.analytic.account">
+        <field name="name">Widows Keeping Project</field>
+        <field name="code">MP01</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp01" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp01"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp02" model="account.analytic.account">
+        <field name="name">Poor family Project</field>
+        <field name="code">MP02</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp02" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp02"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp03" model="account.analytic.account">
+        <field name="name">Vocational training centre Project</field>
+        <field name="code">MP03</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp03" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp03"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp04" model="account.analytic.account">
+        <field name="name">Agriculture Program Project</field>
+        <field name="code">MP04</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp04" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp04"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp05" model="account.analytic.account">
+        <field name="name">Education Project</field>
+        <field name="code">MP05</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp05" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp05"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp06" model="account.analytic.account">
+        <field name="name">Health Care Project</field>
+        <field name="code">MP06</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp06" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp06"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp07" model="account.analytic.account">
+        <field name="name">Better life Oversight Project</field>
+        <field name="code">MP07</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp07" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp07"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp08" model="account.analytic.account">
+        <field name="name">Construction</field>
+        <field name="code">MP08</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp08" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp08"/>
+        <field name="program_id" ref="project_mp00"/>
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="aa_project_mp09" model="account.analytic.account">
+        <field name="name">Admin Cost</field>
+        <field name="code">MP09</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp09" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp09"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp10" model="account.analytic.account">
+        <field name="name">Guest House</field>
+        <field name="code">MP10</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp10" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp10"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp11" model="account.analytic.account">
+        <field name="name">Women Empowerment</field>
+        <field name="code">MP11</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp11" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp11"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp12" model="account.analytic.account">
+        <field name="name">Mental Center Care ???????????</field>
+        <field name="code">MP12</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp12" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp12"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_mp99" model="account.analytic.account">
+        <field name="name">MP Salary</field>
+        <field name="code">MP99</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp99" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_mp99"/>
+        <field name="program_id" ref="project_mp00"/>
+    </record>
+
+    <record id="aa_project_od01" model="account.analytic.account">
+        <field name="name">Program Monitoring Evaluation and Review Project</field>
+        <field name="code">OD01</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od01" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od01"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od02" model="account.analytic.account">
+        <field name="name">Resources Mobilization Project</field>
+        <field name="code">OD02</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od02" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od02"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od03" model="account.analytic.account">
+        <field name="name">Special Week Project</field>
+        <field name="code">OD03</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od03" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od03"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od04" model="account.analytic.account">
+        <field name="name">Branch Development Project</field>
+        <field name="code">OD04</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od04" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od04"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od05" model="account.analytic.account">
+        <field name="name">Leadership Development Project</field>
+        <field name="code">OD05</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od05" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od05"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od06" model="account.analytic.account">
+        <field name="name">Legal Base Development Project</field>
+        <field name="code">OD06</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od06" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od06"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od07" model="account.analytic.account">
+        <field name="name">Lottery Helal</field>
+        <field name="code">OD07</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od07" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od07"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od08" model="account.analytic.account">
+        <field name="name">Lottery SMS</field>
+        <field name="code">OD08</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od08" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od08"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od09" model="account.analytic.account">
+        <field name="name">Lottery</field>
+        <field name="code">OD09</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od09" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od09"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od10" model="account.analytic.account">
+        <field name="name">Admin Cost</field>
+        <field name="code">OD10</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od10" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od10"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od11" model="account.analytic.account">
+        <field name="name">Esar Lottery</field>
+        <field name="code">OD11</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od11" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od11"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od12" model="account.analytic.account">
+        <field name="name">SERDMC (???? ????? ????? ???????)</field>
+        <field name="code">OD12</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od12" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od12"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_od99" model="account.analytic.account">
+        <field name="name">OD Salary</field>
+        <field name="code">OD99</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od99" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_od99"/>
+        <field name="program_id" ref="project_od00"/>
+    </record>
+
+    <record id="aa_project_p_np" model="account.analytic.account">
+        <field name="name">Program &amp; None Program</field>
+        <field name="code">P&amp;NP</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_p_np" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_p_np"/>
+    </record>
+
+    <record id="aa_project_yv01" model="account.analytic.account">
+        <field name="name">Youth and Volunteers Project</field>
+        <field name="code">YV01</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv01" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_yv01"/>
+        <field name="program_id" ref="project_yv00"/>
+    </record>
+
+    <record id="aa_project_yv02" model="account.analytic.account">
+        <field name="name">Membership Support System Project</field>
+        <field name="code">YV02</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv02" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_yv02"/>
+        <field name="program_id" ref="project_yv00"/>
+    </record>
+
+    <record id="aa_project_yv03" model="account.analytic.account">
+        <field name="name">Sports Project</field>
+        <field name="code">YV03</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv03" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_yv03"/>
+        <field name="program_id" ref="project_yv00"/>
+    </record>
+
+    <record id="aa_project_yv04" model="account.analytic.account">
+        <field name="name">Humanitarian Value Project</field>
+        <field name="code">YV04</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv04" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_yv04"/>
+        <field name="program_id" ref="project_yv00"/>
+    </record>
+
+    <record id="aa_project_yv05" model="account.analytic.account">
+        <field name="name">Youth Club</field>
+        <field name="code">YV05</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv05" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_yv05"/>
+        <field name="program_id" ref="project_yv00"/>
+    </record>
+
+    <record id="aa_project_yv06" model="account.analytic.account">
+        <field name="name">Admin Cost</field>
+        <field name="code">YV06</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv06" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_yv06"/>
+        <field name="program_id" ref="project_yv00"/>
+    </record>
+
+    <record id="aa_project_yv07" model="account.analytic.account">
+        <field name="name">Volunteers Coordination ????? ??????? ????????</field>
+        <field name="code">YV07</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv07" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_yv07"/>
+        <field name="program_id" ref="project_yv00"/>
+    </record>
+
+    <record id="aa_project_yv99" model="account.analytic.account">
+        <field name="name">YV Salary</field>
+        <field name="code">YV99</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv99" model="arcs.finance.project">
+        <field name="analytic_account_id" ref="aa_project_yv99"/>
+        <field name="program_id" ref="project_yv00"/>
+    </record>
+
+</odoo>

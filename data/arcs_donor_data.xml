@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- Donor analytic accounts, generated from the ARCS NAV "DONORS CODES"     -->
+    <!-- dimension. Regenerate with tools/gen_data.py.                            -->
+
+    <record id="aa_donor_afad" model="account.analytic.account">
+        <field name="name">AFAD Turkey</field>
+        <field name="code">AFAD</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_afad" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_afad"/>
+    </record>
+
+    <record id="aa_donor_arcs" model="account.analytic.account">
+        <field name="name">Afghan Red Crescent Society</field>
+        <field name="code">ARCS</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_arcs" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_arcs"/>
+    </record>
+
+    <record id="aa_donor_chrc" model="account.analytic.account">
+        <field name="name">China Red Cross</field>
+        <field name="code">CHRC</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_chrc" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_chrc"/>
+    </record>
+
+    <record id="aa_donor_crc" model="account.analytic.account">
+        <field name="name">Canadian Red Cross</field>
+        <field name="code">CRC</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_crc" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_crc"/>
+    </record>
+
+    <record id="aa_donor_dfatd" model="account.analytic.account">
+        <field name="name">DFATD</field>
+        <field name="code">DFATD</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_dfatd" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_dfatd"/>
+    </record>
+
+    <record id="aa_donor_drc" model="account.analytic.account">
+        <field name="name">Danish Red Cross</field>
+        <field name="code">DRC</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_drc" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_drc"/>
+    </record>
+
+    <record id="aa_donor_gov" model="account.analytic.account">
+        <field name="name">Afghan Government</field>
+        <field name="code">GOV</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_gov" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_gov"/>
+    </record>
+
+    <record id="aa_donor_gpv" model="account.analytic.account">
+        <field name="name">German Peace Village</field>
+        <field name="code">GPV</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_gpv" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_gpv"/>
+    </record>
+
+    <record id="aa_donor_icrc" model="account.analytic.account">
+        <field name="name">Intl' Committee of Red Cross</field>
+        <field name="code">ICRC</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_icrc" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_icrc"/>
+    </record>
+
+    <record id="aa_donor_ifrc" model="account.analytic.account">
+        <field name="name">Intl' Federation of Red Cross &amp; Red Crescent</field>
+        <field name="code">IFRC</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_ifrc" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_ifrc"/>
+    </record>
+
+    <record id="aa_donor_ihht" model="account.analytic.account">
+        <field name="name">IHH Foundation Turkey</field>
+        <field name="code">IHHT</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_ihht" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_ihht"/>
+    </record>
+
+    <record id="aa_donor_ksarc" model="account.analytic.account">
+        <field name="name">King Salman Humanitarian Aid &amp; Relief Center</field>
+        <field name="code">KSARC</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_ksarc" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_ksarc"/>
+    </record>
+
+    <record id="aa_donor_kwrcs" model="account.analytic.account">
+        <field name="name">Kuwait Red Crescent Society</field>
+        <field name="code">KWRCS</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_kwrcs" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_kwrcs"/>
+    </record>
+
+    <record id="aa_donor_nrc" model="account.analytic.account">
+        <field name="name">Norwegian Red Cross</field>
+        <field name="code">NRC</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_nrc" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_nrc"/>
+    </record>
+
+    <record id="aa_donor_oth" model="account.analytic.account">
+        <field name="name">Other Donor</field>
+        <field name="code">OTH</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_oth" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_oth"/>
+    </record>
+
+    <record id="aa_donor_qrcs" model="account.analytic.account">
+        <field name="name">Qatar Red Cross Society</field>
+        <field name="code">QRCS</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_qrcs" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_qrcs"/>
+    </record>
+
+    <record id="aa_donor_trc" model="account.analytic.account">
+        <field name="name">Turkish Red Crescent</field>
+        <field name="code">TRC</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_trc" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_trc"/>
+    </record>
+
+    <record id="aa_donor_un" model="account.analytic.account">
+        <field name="name">United Nations</field>
+        <field name="code">UN</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_un" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_un"/>
+    </record>
+
+    <record id="aa_donor_unfpa" model="account.analytic.account">
+        <field name="name">United Nations Population fund</field>
+        <field name="code">UNFPA</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_unfpa" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_unfpa"/>
+    </record>
+
+    <record id="aa_donor_unicef" model="account.analytic.account">
+        <field name="name">United Nations International Children's Emergency</field>
+        <field name="code">UNICEF</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_unicef" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_unicef"/>
+    </record>
+
+    <record id="aa_donor_unops" model="account.analytic.account">
+        <field name="name">United Nation Office for Project Services</field>
+        <field name="code">UNOPS</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_unops" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_unops"/>
+    </record>
+
+    <record id="aa_donor_who" model="account.analytic.account">
+        <field name="name">World Health Organization</field>
+        <field name="code">WHO</field>
+        <field name="plan_id" ref="analytic_plan_donor"/>
+    </record>
+    <record id="donor_who" model="arcs.finance.donor">
+        <field name="analytic_account_id" ref="aa_donor_who"/>
+    </record>
+
+</odoo>

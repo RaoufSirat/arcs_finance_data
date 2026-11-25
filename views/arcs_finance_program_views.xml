@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <record id="arcs_finance_program_view_list" model="ir.ui.view">
+        <field name="name">arcs.finance.program.list</field>
+        <field name="model">arcs.finance.program</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="serial_no"/><field name="code"/>
+                <field name="name"/>
+                <field name="active" optional="hide"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="arcs_finance_program_view_form" model="ir.ui.view">
+        <field name="name">arcs.finance.program.form</field>
+        <field name="model">arcs.finance.program</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name" placeholder="e.g. Disaster Management 2026"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="serial_no"/><field name="code" placeholder="e.g. DM00"/>
+                        </group>
+                        <group>
+                            <field name="project_ids" widget="many2many_tags" options="{'no_create': True}"/><field name="activity_ids" widget="many2many_tags" options="{'no_create': True}"/><field name="active"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="arcs_finance_program_view_search" model="ir.ui.view">
+        <field name="name">arcs.finance.program.search</field>
+        <field name="model">arcs.finance.program</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="serial_no"/><field name="name" string="Programme" filter_domain="['|', ('name', 'ilike', self), ('code', 'ilike', self)]"/>
+                <filter name="active_only" string="Active" domain="[('active', '=', True)]"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="arcs_finance_program_action" model="ir.actions.act_window">
+        <field name="name">Programs</field>
+        <field name="res_model">arcs.finance.program</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="arcs_finance_program_view_search"/>
+        <field name="context">{'search_default_active_only': 1}</field>
+    </record>
+
+</odoo>

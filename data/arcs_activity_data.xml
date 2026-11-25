@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- Activity (funded work-plan line) analytic accounts, generated from the -->
+    <!-- ARCS NAV "PIP Activity codes" dimension. The source sheet is flat (no  -->
+    <!-- Totaling/grouping rows), so there is no parent/child structure and the -->
+    <!-- Project link is intentionally left blank on import - the source data   -->
+    <!-- gives no reliable way to infer which Project each Activity belongs to. -->
+    <!-- Regenerate with tools/gen_data.py.                                     -->
+
+    <record id="aa_activity_cida0001" model="account.analytic.account">
+        <field name="name">1111- 141 -  Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0001</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0001" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0001"/>
+    </record>
+
+    <record id="aa_activity_cida0002" model="account.analytic.account">
+        <field name="name">1111/141- Simulate Evaluate Cont Plan-Consult Fees</field>
+        <field name="code">CIDA0002</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0002" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0002"/>
+    </record>
+
+    <record id="aa_activity_cida0003" model="account.analytic.account">
+        <field name="name">1111/142 -  Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0003</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0003" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0003"/>
+    </record>
+
+    <record id="aa_activity_cida0004" model="account.analytic.account">
+        <field name="name">1111/ 161  - Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0004</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0004" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0004"/>
+    </record>
+
+    <record id="aa_activity_cida0005" model="account.analytic.account">
+        <field name="name">1111/ 161 - Simulations, Evaluator Travel cost</field>
+        <field name="code">CIDA0005</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0005" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0005"/>
+    </record>
+
+    <record id="aa_activity_cida0006" model="account.analytic.account">
+        <field name="name">1111/164 - Simulatn  Gender Mat  data Printing</field>
+        <field name="code">CIDA0006</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0006" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0006"/>
+    </record>
+
+    <record id="aa_activity_cida0007" model="account.analytic.account">
+        <field name="name">1111/164 -Simulatn contgency  test wshop  on Flood</field>
+        <field name="code">CIDA0007</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0007" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0007"/>
+    </record>
+
+    <record id="aa_activity_cida0008" model="account.analytic.account">
+        <field name="name">1111/164  - Simulatn - 4 days meal &amp; transport</field>
+        <field name="code">CIDA0008</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0008" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0008"/>
+    </record>
+
+    <record id="aa_activity_cida0009" model="account.analytic.account">
+        <field name="name">1111/164 - Simulatn -  Workshop supplies</field>
+        <field name="code">CIDA0009</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0009" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0009"/>
+    </record>
+
+    <record id="aa_activity_cida0010" model="account.analytic.account">
+        <field name="name">1111/164 - Simulations -   Translation Costs</field>
+        <field name="code">CIDA0010</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0010" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0010"/>
+    </record>
+
+    <record id="aa_activity_cida0011" model="account.analytic.account">
+        <field name="name">1111/164  -Simulations - Travel  SARD DM Delegate</field>
+        <field name="code">CIDA0011</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0011" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0011"/>
+    </record>
+
+    <record id="aa_activity_cida0012" model="account.analytic.account">
+        <field name="name">1111/164  -Simulatn  Translate  updated  SoPs</field>
+        <field name="code">CIDA0012</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0012" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0012"/>
+    </record>
+
+    <record id="aa_activity_cida0013" model="account.analytic.account">
+        <field name="name">1111/164  -Dev DR Response Action Plan  DMR action</field>
+        <field name="code">CIDA0013</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0013" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0013"/>
+    </record>
+
+    <record id="aa_activity_cida0014" model="account.analytic.account">
+        <field name="name">1111/164 -Dev. DR Action Plan -workplan translatn</field>
+        <field name="code">CIDA0014</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0014" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0014"/>
+    </record>
+
+    <record id="aa_activity_cida0015" model="account.analytic.account">
+        <field name="name">1111/164  -  Dev. DR Action Plan - Material Cost</field>
+        <field name="code">CIDA0015</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0015" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0015"/>
+    </record>
+
+    <record id="aa_activity_cida0016" model="account.analytic.account">
+        <field name="name">1111/164  -  Dev. DR Action Plan -translation Cost</field>
+        <field name="code">CIDA0016</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0016" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0016"/>
+    </record>
+
+    <record id="aa_activity_cida0017" model="account.analytic.account">
+        <field name="name">1112/141 - SoP/Tools Developmt  -  Consultant fees</field>
+        <field name="code">CIDA0017</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0017" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0017"/>
+    </record>
+
+    <record id="aa_activity_cida0018" model="account.analytic.account">
+        <field name="name">1112/164  -Cross-cutin theme Wshop Bcom, ICRC ARCS</field>
+        <field name="code">CIDA0018</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0018" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0018"/>
+    </record>
+
+    <record id="aa_activity_cida0019" model="account.analytic.account">
+        <field name="name">1112/164 - Cross-cutin theme Wshop - Bcom travcost</field>
+        <field name="code">CIDA0019</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0019" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0019"/>
+    </record>
+
+    <record id="aa_activity_cida0020" model="account.analytic.account">
+        <field name="name">1112/164  - Developt of tool Consult  travel cost</field>
+        <field name="code">CIDA0020</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0020" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0020"/>
+    </record>
+
+    <record id="aa_activity_cida0021" model="account.analytic.account">
+        <field name="name">1112/164  - Dev. of tools -transalatn of  document</field>
+        <field name="code">CIDA0021</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0021" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0021"/>
+    </record>
+
+    <record id="aa_activity_cida0022" model="account.analytic.account">
+        <field name="name">1112/164  -Developmt &amp; printing of  Docs &amp;  tools</field>
+        <field name="code">CIDA0022</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0022" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0022"/>
+    </record>
+
+    <record id="aa_activity_cida0023" model="account.analytic.account">
+        <field name="name">1210/142 - EOC - Equipment &amp; Design Need Asessment</field>
+        <field name="code">CIDA0023</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0023" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0023"/>
+    </record>
+
+    <record id="aa_activity_cida0024" model="account.analytic.account">
+        <field name="name">1210/142 - EOC - ICT Travel Cost</field>
+        <field name="code">CIDA0024</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0024" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0024"/>
+    </record>
+
+    <record id="aa_activity_cida0025" model="account.analytic.account">
+        <field name="name">1210/142- EOC-Equipt Elect Rewire G room &amp; Scurity</field>
+        <field name="code">CIDA0025</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0025" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0025"/>
+    </record>
+
+    <record id="aa_activity_cida0026" model="account.analytic.account">
+        <field name="name">1210/164-  EOC Operation Document - Binder &amp; Pcopy</field>
+        <field name="code">CIDA0026</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0026" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0026"/>
+    </record>
+
+    <record id="aa_activity_cida0027" model="account.analytic.account">
+        <field name="name">1210/164 - EOC operation Document Translation Cost</field>
+        <field name="code">CIDA0027</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0027" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0027"/>
+    </record>
+
+    <record id="aa_activity_cida0028" model="account.analytic.account">
+        <field name="name">1210/164 - EOC  Ops Doc  E-training Pack translatn</field>
+        <field name="code">CIDA0028</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0028" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0028"/>
+    </record>
+
+    <record id="aa_activity_cida0029" model="account.analytic.account">
+        <field name="name">1210/166 - EOC - Other  Equipt  (TBD)</field>
+        <field name="code">CIDA0029</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0029" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0029"/>
+    </record>
+
+    <record id="aa_activity_cida0030" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh Equip 7 veh + radio equipt</field>
+        <field name="code">CIDA0030</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0030" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0030"/>
+    </record>
+
+    <record id="aa_activity_cida0031" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh Equipt - 84 Kits compositn TBD</field>
+        <field name="code">CIDA0031</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0031" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0031"/>
+    </record>
+
+    <record id="aa_activity_cida0032" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh/Equipt -Driver  Field Trip</field>
+        <field name="code">CIDA0032</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0032" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0032"/>
+    </record>
+
+    <record id="aa_activity_cida0033" model="account.analytic.account">
+        <field name="name">3111/164  MoPH - Translation of Report</field>
+        <field name="code">CIDA0033</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0033" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0033"/>
+    </record>
+
+    <record id="aa_activity_cida0034" model="account.analytic.account">
+        <field name="name">3112/141  PMER -DM Tool Dev / Updating KSULT Fees</field>
+        <field name="code">CIDA0034</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0034" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0034"/>
+    </record>
+
+    <record id="aa_activity_cida0035" model="account.analytic.account">
+        <field name="name">3112/164  PMER -Tools development  Ksultant Travel</field>
+        <field name="code">CIDA0035</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0035" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0035"/>
+    </record>
+
+    <record id="aa_activity_cida0036" model="account.analytic.account">
+        <field name="name">3112/164  PMER -Translation of  document &amp; Tools</field>
+        <field name="code">CIDA0036</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0036" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0036"/>
+    </record>
+
+    <record id="aa_activity_cida0037" model="account.analytic.account">
+        <field name="name">3112/164  PMER - Printin Translated  Docs &amp; Tool</field>
+        <field name="code">CIDA0037</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0037" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0037"/>
+    </record>
+
+    <record id="aa_activity_cida0038" model="account.analytic.account">
+        <field name="name">3122/164  PMER -Translation of Training Tools</field>
+        <field name="code">CIDA0038</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0038" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0038"/>
+    </record>
+
+    <record id="aa_activity_cida0039" model="account.analytic.account">
+        <field name="name">3122/164  PMER -E-Training PACKAGE + Translation</field>
+        <field name="code">CIDA0039</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0039" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0039"/>
+    </record>
+
+    <record id="aa_activity_cida0040" model="account.analytic.account">
+        <field name="name">4100/164  Appeal  Meetin  Cost Base Mid End Line</field>
+        <field name="code">CIDA0040</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0040" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0040"/>
+    </record>
+
+    <record id="aa_activity_cida0041" model="account.analytic.account">
+        <field name="name">4200/141  INT. Consult - FEES  of CRC Int. Gender</field>
+        <field name="code">CIDA0041</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0041" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0041"/>
+    </record>
+
+    <record id="aa_activity_cida0042" model="account.analytic.account">
+        <field name="name">4200/161  INT. Consult - Travel of CRC Int Gender</field>
+        <field name="code">CIDA0042</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0042" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0042"/>
+    </record>
+
+    <record id="aa_activity_cida0043" model="account.analytic.account">
+        <field name="name">4200/164  INT Consult -Travel of CRC Int Gender</field>
+        <field name="code">CIDA0043</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0043" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0043"/>
+    </record>
+
+    <record id="aa_activity_cida0044" model="account.analytic.account">
+        <field name="name">4200/164  INT  Consult -Veh (Gas) + Driver</field>
+        <field name="code">CIDA0044</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0044" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0044"/>
+    </record>
+
+    <record id="aa_activity_cida0045" model="account.analytic.account">
+        <field name="name">4200/167  INT  Consult-Personal Dev. Online Course</field>
+        <field name="code">CIDA0045</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0045" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0045"/>
+    </record>
+
+    <record id="aa_activity_cida0046" model="account.analytic.account">
+        <field name="name">4200/167  INT Consult -Meeting &amp; Refreshment Cost</field>
+        <field name="code">CIDA0046</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0046" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0046"/>
+    </record>
+
+    <record id="aa_activity_cida0047" model="account.analytic.account">
+        <field name="name">4300/141    PIP - PIP Writer</field>
+        <field name="code">CIDA0047</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0047" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0047"/>
+    </record>
+
+    <record id="aa_activity_cida0048" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Establish DMR TF, Monthly Meetin</field>
+        <field name="code">CIDA0048</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0048" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0048"/>
+    </record>
+
+    <record id="aa_activity_cida0049" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Meeting and Refreshment Cost</field>
+        <field name="code">CIDA0049</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0049" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0049"/>
+    </record>
+
+    <record id="aa_activity_cida0050" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Meeting &amp; Refreshment Cost</field>
+        <field name="code">CIDA0050</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0050" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0050"/>
+    </record>
+
+    <record id="aa_activity_cida0051" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Annual Approval Meetings</field>
+        <field name="code">CIDA0051</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0051" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0051"/>
+    </record>
+
+    <record id="aa_activity_cida0052" model="account.analytic.account">
+        <field name="name">4300/167    PIP - 3 Quarterly  Meetings Refreshmt</field>
+        <field name="code">CIDA0052</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0052" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0052"/>
+    </record>
+
+    <record id="aa_activity_cida0053" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Quarterly / AWP Planning Meeting</field>
+        <field name="code">CIDA0053</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0053" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0053"/>
+    </record>
+
+    <record id="aa_activity_cida0054" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Initial Out of Country PSC Meeti</field>
+        <field name="code">CIDA0054</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0054" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0054"/>
+    </record>
+
+    <record id="aa_activity_cida0055" model="account.analytic.account">
+        <field name="name">4300/167   PIP -  Workshop</field>
+        <field name="code">CIDA0055</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0055" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0055"/>
+    </record>
+
+    <record id="aa_activity_cida0056" model="account.analytic.account">
+        <field name="name">4300/167   PIP - Translation of PIP</field>
+        <field name="code">CIDA0056</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0056" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0056"/>
+    </record>
+
+    <record id="aa_activity_cida0057" model="account.analytic.account">
+        <field name="name">4300/167   PIP - Quarterly Spent Translation</field>
+        <field name="code">CIDA0057</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0057" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0057"/>
+    </record>
+
+    <record id="aa_activity_cida0058" model="account.analytic.account">
+        <field name="name">4700/12   ARCS Staff - Operations Manager</field>
+        <field name="code">CIDA0058</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0058" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0058"/>
+    </record>
+
+    <record id="aa_activity_cida0059" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff -  Operations Officer</field>
+        <field name="code">CIDA0059</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0059" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0059"/>
+    </record>
+
+    <record id="aa_activity_cida0060" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - Operations Officer</field>
+        <field name="code">CIDA0060</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0060" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0060"/>
+    </record>
+
+    <record id="aa_activity_cida0061" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - ARCS Staf Topup DM Staf - HQ</field>
+        <field name="code">CIDA0061</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0061" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0061"/>
+    </record>
+
+    <record id="aa_activity_cida0062" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - ARCS staff Top Up Regions</field>
+        <field name="code">CIDA0062</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0062" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0062"/>
+    </record>
+
+    <record id="aa_activity_cida0063" model="account.analytic.account">
+        <field name="name">1111/164  -  Dev. DR Action Plan -translation Cost</field>
+        <field name="code">CIDA0063</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0063" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0063"/>
+    </record>
+
+    <record id="aa_activity_cida0064" model="account.analytic.account">
+        <field name="name">1113/141 -Volunteer and Bcom tools Policy Dev</field>
+        <field name="code">CIDA0064</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0064" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0064"/>
+    </record>
+
+    <record id="aa_activity_cida0065" model="account.analytic.account">
+        <field name="name">1113/164 - Volunteer &amp; Bcom incoporated tools</field>
+        <field name="code">CIDA0065</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0065" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0065"/>
+    </record>
+
+    <record id="aa_activity_cida0066" model="account.analytic.account">
+        <field name="name">1113/164 Volunteer and Bcom tools - Caps building</field>
+        <field name="code">CIDA0066</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0066" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0066"/>
+    </record>
+
+    <record id="aa_activity_cida0067" model="account.analytic.account">
+        <field name="name">1114/164  DM procedure Wshop Test &amp; fedback to ToT</field>
+        <field name="code">CIDA0067</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0067" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0067"/>
+    </record>
+
+    <record id="aa_activity_cida0068" model="account.analytic.account">
+        <field name="name">1130/ 141  -  ICT assessment - consultant fees</field>
+        <field name="code">CIDA0068</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0068" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0068"/>
+    </record>
+
+    <record id="aa_activity_cida0069" model="account.analytic.account">
+        <field name="name">1130/141 - ICT design, test implementn Constul fee</field>
+        <field name="code">CIDA0069</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0069" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0069"/>
+    </record>
+
+    <record id="aa_activity_cida0070" model="account.analytic.account">
+        <field name="name">1130/164  -  ICT assessment - Consultant travel</field>
+        <field name="code">CIDA0070</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0070" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0070"/>
+    </record>
+
+    <record id="aa_activity_cida0071" model="account.analytic.account">
+        <field name="name">1130/164  -  ICT assessment - Material costs</field>
+        <field name="code">CIDA0071</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0071" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0071"/>
+    </record>
+
+    <record id="aa_activity_cida0072" model="account.analytic.account">
+        <field name="name">1130/164 -ICT design, Test, Implement-Ksult travel</field>
+        <field name="code">CIDA0072</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0072" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0072"/>
+    </record>
+
+    <record id="aa_activity_cida0073" model="account.analytic.account">
+        <field name="name">1130/164  DMIS Implementn -Write, Print e-Manual</field>
+        <field name="code">CIDA0073</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0073" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0073"/>
+    </record>
+
+    <record id="aa_activity_cida0074" model="account.analytic.account">
+        <field name="name">1130/164  -DMIS Implementation - manual tran</field>
+        <field name="code">CIDA0074</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0074" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0074"/>
+    </record>
+
+    <record id="aa_activity_cida0075" model="account.analytic.account">
+        <field name="name">1130/164 - DMIS Train 30 staf by Ksultant  at  HQ</field>
+        <field name="code">CIDA0075</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0075" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0075"/>
+    </record>
+
+    <record id="aa_activity_cida0076" model="account.analytic.account">
+        <field name="name">1130/164 -DMIS-Training Material Package at Hq</field>
+        <field name="code">CIDA0076</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0076" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0076"/>
+    </record>
+
+    <record id="aa_activity_cida0077" model="account.analytic.account">
+        <field name="name">1130/164 -DMIS -ToT e-Training package &amp; Translatn</field>
+        <field name="code">CIDA0077</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0077" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0077"/>
+    </record>
+
+    <record id="aa_activity_cida0078" model="account.analytic.account">
+        <field name="name">1130/164  -DMIS -ToT Training of Region by Hq IT</field>
+        <field name="code">CIDA0078</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0078" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0078"/>
+    </record>
+
+    <record id="aa_activity_cida0079" model="account.analytic.account">
+        <field name="name">1130/166  -  ICT equipment -  HQ support</field>
+        <field name="code">CIDA0079</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0079" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0079"/>
+    </record>
+
+    <record id="aa_activity_cida0080" model="account.analytic.account">
+        <field name="name">1140/164 -ICT Trainin-Region Trainin &amp; Com Equipt</field>
+        <field name="code">CIDA0080</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0080" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0080"/>
+    </record>
+
+    <record id="aa_activity_cida0081" model="account.analytic.account">
+        <field name="name">1140/166 -ICT Equipt- for Region Branch Commicatn</field>
+        <field name="code">CIDA0081</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0081" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0081"/>
+    </record>
+
+    <record id="aa_activity_cida0082" model="account.analytic.account">
+        <field name="name">1140/166 -ICT License - Radios &amp; Oth Communication</field>
+        <field name="code">CIDA0082</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0082" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0082"/>
+    </record>
+
+    <record id="aa_activity_cida0083" model="account.analytic.account">
+        <field name="name">1210/166 - EOC - Other  Equipt  (TBD)</field>
+        <field name="code">CIDA0083</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0083" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0083"/>
+    </record>
+
+    <record id="aa_activity_cida0084" model="account.analytic.account">
+        <field name="name">1220/142 - EOC -Electrical Rewire G room &amp; Scurity</field>
+        <field name="code">CIDA0084</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0084" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0084"/>
+    </record>
+
+    <record id="aa_activity_cida0085" model="account.analytic.account">
+        <field name="name">1220/166 - EOC Region/Branch Approved  Equiptment</field>
+        <field name="code">CIDA0085</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0085" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0085"/>
+    </record>
+
+    <record id="aa_activity_cida0086" model="account.analytic.account">
+        <field name="name">1220/166  -EOC Region/Branch equipment</field>
+        <field name="code">CIDA0086</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0086" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0086"/>
+    </record>
+
+    <record id="aa_activity_cida0087" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh Equip 7 veh + radio equipt</field>
+        <field name="code">CIDA0087</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0087" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0087"/>
+    </record>
+
+    <record id="aa_activity_cida0088" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh Equipt - 84 Kits compositn TBD</field>
+        <field name="code">CIDA0088</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0088" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0088"/>
+    </record>
+
+    <record id="aa_activity_cida0089" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh/Equipt -Driver  Field Trip</field>
+        <field name="code">CIDA0089</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0089" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0089"/>
+    </record>
+
+    <record id="aa_activity_cida0090" model="account.analytic.account">
+        <field name="name">1232/164  -DRU Training</field>
+        <field name="code">CIDA0090</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0090" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0090"/>
+    </record>
+
+    <record id="aa_activity_cida0091" model="account.analytic.account">
+        <field name="name">1232/164 - DRU/MHT JointTraining in disater Arears</field>
+        <field name="code">CIDA0091</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0091" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0091"/>
+    </record>
+
+    <record id="aa_activity_cida0092" model="account.analytic.account">
+        <field name="name">1240/164 -NFIs -Protocal Storing -Whouse  Training</field>
+        <field name="code">CIDA0092</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0092" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0092"/>
+    </record>
+
+    <record id="aa_activity_cida0093" model="account.analytic.account">
+        <field name="name">1240/166 -NFIs  Procurement  delivery  to IFRC WH</field>
+        <field name="code">CIDA0093</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0093" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0093"/>
+    </record>
+
+    <record id="aa_activity_cida0094" model="account.analytic.account">
+        <field name="name">1251/164 - Wshop-ANDMA, ACTORS to update Cont Plan</field>
+        <field name="code">CIDA0094</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0094" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0094"/>
+    </record>
+
+    <record id="aa_activity_cida0095" model="account.analytic.account">
+        <field name="name">1251/164 -Translation Contingency Plan</field>
+        <field name="code">CIDA0095</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0095" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0095"/>
+    </record>
+
+    <record id="aa_activity_cida0096" model="account.analytic.account">
+        <field name="name">2132/164 -Workshop- 3days for 30 staff by Ksultant</field>
+        <field name="code">CIDA0096</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0096" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0096"/>
+    </record>
+
+    <record id="aa_activity_cida0097" model="account.analytic.account">
+        <field name="name">2132/164 - Workshop Training Material PACKAGES</field>
+        <field name="code">CIDA0097</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0097" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0097"/>
+    </record>
+
+    <record id="aa_activity_cida0098" model="account.analytic.account">
+        <field name="name">2141/141-Bencom Dev Vol Policy Strategy - Ksultant</field>
+        <field name="code">CIDA0098</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0098" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0098"/>
+    </record>
+
+    <record id="aa_activity_cida0099" model="account.analytic.account">
+        <field name="name">2141/164 -Bencom  Gender Vol Strategy -DM, OD,HLTH</field>
+        <field name="code">CIDA0099</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0099" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0099"/>
+    </record>
+
+    <record id="aa_activity_cida0100" model="account.analytic.account">
+        <field name="name">2141/164 -Bencom -Volunteer  Tools Incorported</field>
+        <field name="code">CIDA0100</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0100" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0100"/>
+    </record>
+
+    <record id="aa_activity_cida0101" model="account.analytic.account">
+        <field name="name">2141/164-Bencom- Caps Buildin of Foca ToT Pers</field>
+        <field name="code">CIDA0101</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0101" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0101"/>
+    </record>
+
+    <record id="aa_activity_cida0102" model="account.analytic.account">
+        <field name="name">2211/12 - MHT- HR &amp; Advertisment Costs</field>
+        <field name="code">CIDA0102</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0102" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0102"/>
+    </record>
+
+    <record id="aa_activity_cida0103" model="account.analytic.account">
+        <field name="name">2211/12 - MHT -Salary Topups for  40 Medical Staf</field>
+        <field name="code">CIDA0103</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0103" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0103"/>
+    </record>
+
+    <record id="aa_activity_cida0104" model="account.analytic.account">
+        <field name="name">2212/164 -MHT Trainin E-Trainin Package+ Translatn</field>
+        <field name="code">CIDA0104</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0104" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0104"/>
+    </record>
+
+    <record id="aa_activity_cida0105" model="account.analytic.account">
+        <field name="name">2212/164  -MHT Trainin 2 Rounds  trainin in Kabul</field>
+        <field name="code">CIDA0105</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0105" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0105"/>
+    </record>
+
+    <record id="aa_activity_cida0106" model="account.analytic.account">
+        <field name="name">2212/164 -MHT trainin Pdiem, plus Travel</field>
+        <field name="code">CIDA0106</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0106" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0106"/>
+    </record>
+
+    <record id="aa_activity_cida0107" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin Pdiem ARCS HQ Genda Trainer</field>
+        <field name="code">CIDA0107</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0107" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0107"/>
+    </record>
+
+    <record id="aa_activity_cida0108" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin - Training Supply PACKAGE</field>
+        <field name="code">CIDA0108</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0108" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0108"/>
+    </record>
+
+    <record id="aa_activity_cida0109" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin- E-Training Pack+Translatn</field>
+        <field name="code">CIDA0109</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0109" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0109"/>
+    </record>
+
+    <record id="aa_activity_cida0110" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -40 MHT Staf+ 7DM Reg Focal</field>
+        <field name="code">CIDA0110</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0110" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0110"/>
+    </record>
+
+    <record id="aa_activity_cida0111" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin - Pdiem plus Travel</field>
+        <field name="code">CIDA0111</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0111" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0111"/>
+    </record>
+
+    <record id="aa_activity_cida0112" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -4 ARCS HQ Trainer + Gender</field>
+        <field name="code">CIDA0112</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0112" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0112"/>
+    </record>
+
+    <record id="aa_activity_cida0113" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -Trainin Suply PACKAGE</field>
+        <field name="code">CIDA0113</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0113" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0113"/>
+    </record>
+
+    <record id="aa_activity_cida0114" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin-Cost of  MoPH Courses</field>
+        <field name="code">CIDA0114</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0114" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0114"/>
+    </record>
+
+    <record id="aa_activity_cida0115" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -Pdiem &amp; Travel 40 Med STAF</field>
+        <field name="code">CIDA0115</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0115" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0115"/>
+    </record>
+
+    <record id="aa_activity_cida0116" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint Trainin -Disaster  Arears</field>
+        <field name="code">CIDA0116</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0116" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0116"/>
+    </record>
+
+    <record id="aa_activity_cida0117" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint E-Trainin PACK +Translatn</field>
+        <field name="code">CIDA0117</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0117" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0117"/>
+    </record>
+
+    <record id="aa_activity_cida0118" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint Trainin - Regional  Wshop</field>
+        <field name="code">CIDA0118</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0118" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0118"/>
+    </record>
+
+    <record id="aa_activity_cida0119" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint Trainin - Pdiem + travel</field>
+        <field name="code">CIDA0119</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0119" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0119"/>
+    </record>
+
+    <record id="aa_activity_cida0120" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Trainin-2 veh, Driver Focal Per</field>
+        <field name="code">CIDA0120</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0120" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0120"/>
+    </record>
+
+    <record id="aa_activity_cida0121" model="account.analytic.account">
+        <field name="name">2212/164    DRU/MHT Training - Office Location</field>
+        <field name="code">CIDA0121</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0121" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0121"/>
+    </record>
+
+    <record id="aa_activity_cida0122" model="account.analytic.account">
+        <field name="name">2212/164    DRU/MHT Training - Supply PAKAGES</field>
+        <field name="code">CIDA0122</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0122" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0122"/>
+    </record>
+
+    <record id="aa_activity_cida0123" model="account.analytic.account">
+        <field name="name">2213/166   MHT  - 10 Veh, Radios, Transport</field>
+        <field name="code">CIDA0123</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0123" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0123"/>
+    </record>
+
+    <record id="aa_activity_cida0124" model="account.analytic.account">
+        <field name="name">2221/164  WatSan -Train staff on WATSAN Unit (NHQ)</field>
+        <field name="code">CIDA0124</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0124" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0124"/>
+    </record>
+
+    <record id="aa_activity_cida0125" model="account.analytic.account">
+        <field name="name">2221/166  WatSan -Procure  5 WATSAN Units, Tranpot</field>
+        <field name="code">CIDA0125</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0125" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0125"/>
+    </record>
+
+    <record id="aa_activity_cida0126" model="account.analytic.account">
+        <field name="name">2231/164  MoPH Update  Health Contigecy PLAN, ORSH</field>
+        <field name="code">CIDA0126</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0126" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0126"/>
+    </record>
+
+    <record id="aa_activity_cida0127" model="account.analytic.account">
+        <field name="name">2231/164  MoPH - Translation</field>
+        <field name="code">CIDA0127</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0127" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0127"/>
+    </record>
+
+    <record id="aa_activity_cida0128" model="account.analytic.account">
+        <field name="name">3112/164  PMER - Tool Training ToT in PMER</field>
+        <field name="code">CIDA0128</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0128" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0128"/>
+    </record>
+
+    <record id="aa_activity_cida0129" model="account.analytic.account">
+        <field name="name">3120/164  PMER - HQ PMER Trainin for DM, Hlth PMER</field>
+        <field name="code">CIDA0129</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0129" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0129"/>
+    </record>
+
+    <record id="aa_activity_cida0130" model="account.analytic.account">
+        <field name="name">3120/164  PMER - Training  PACKAGE</field>
+        <field name="code">CIDA0130</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0130" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0130"/>
+    </record>
+
+    <record id="aa_activity_cida0131" model="account.analytic.account">
+        <field name="name">3120/164  PMER - Translate Training PACKAGE</field>
+        <field name="code">CIDA0131</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0131" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0131"/>
+    </record>
+
+    <record id="aa_activity_cida0132" model="account.analytic.account">
+        <field name="name">3122/164  PMER -Regional PMER Staff Training</field>
+        <field name="code">CIDA0132</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0132" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0132"/>
+    </record>
+
+    <record id="aa_activity_cida0133" model="account.analytic.account">
+        <field name="name">3132/164  PMER- Pdiem- 4 PMER Teams Focal</field>
+        <field name="code">CIDA0133</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0133" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0133"/>
+    </record>
+
+    <record id="aa_activity_cida0134" model="account.analytic.account">
+        <field name="name">3132/164  PMER -Pdiem ANDMA Regional Reps</field>
+        <field name="code">CIDA0134</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0134" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0134"/>
+    </record>
+
+    <record id="aa_activity_cida0135" model="account.analytic.account">
+        <field name="name">3132/164  PMER -2 Veh + Drivers 4 Gender Advisor</field>
+        <field name="code">CIDA0135</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0135" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0135"/>
+    </record>
+
+    <record id="aa_activity_cida0136" model="account.analytic.account">
+        <field name="name">3132/164  PMER -Finalise &amp; Translate Report</field>
+        <field name="code">CIDA0136</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0136" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0136"/>
+    </record>
+
+    <record id="aa_activity_cida0137" model="account.analytic.account">
+        <field name="name">3210/164  Appeal  Training</field>
+        <field name="code">CIDA0137</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0137" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0137"/>
+    </record>
+
+    <record id="aa_activity_cida0138" model="account.analytic.account">
+        <field name="name">3210/164  Appeal  -  DM Support Service Gap</field>
+        <field name="code">CIDA0138</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0138" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0138"/>
+    </record>
+
+    <record id="aa_activity_cida0139" model="account.analytic.account">
+        <field name="name">3210/166   Appeal  -  Procurement of OD  Gaps</field>
+        <field name="code">CIDA0139</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0139" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0139"/>
+    </record>
+
+    <record id="aa_activity_cida0140" model="account.analytic.account">
+        <field name="name">4200/141  INT. Consult - FEES  of CRC Int. Gender</field>
+        <field name="code">CIDA0140</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0140" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0140"/>
+    </record>
+
+    <record id="aa_activity_cida0141" model="account.analytic.account">
+        <field name="name">4200/161  INT. Consult - Travel of CRC Int Gender</field>
+        <field name="code">CIDA0141</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0141" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0141"/>
+    </record>
+
+    <record id="aa_activity_cida0142" model="account.analytic.account">
+        <field name="name">4200/164  INT Consult -Travel of CRC Int Gender</field>
+        <field name="code">CIDA0142</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0142" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0142"/>
+    </record>
+
+    <record id="aa_activity_cida0143" model="account.analytic.account">
+        <field name="name">4200/164  INT  Consult -Veh (Gas) + Driver</field>
+        <field name="code">CIDA0143</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0143" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0143"/>
+    </record>
+
+    <record id="aa_activity_cida0144" model="account.analytic.account">
+        <field name="name">4200/167  INT  Consult-Personal Dev. Online Course</field>
+        <field name="code">CIDA0144</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0144" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0144"/>
+    </record>
+
+    <record id="aa_activity_cida0145" model="account.analytic.account">
+        <field name="name">4200/167  INT Consult -Meeting &amp; Refreshment Cost</field>
+        <field name="code">CIDA0145</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0145" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0145"/>
+    </record>
+
+    <record id="aa_activity_cida0146" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Establish DMR TF, Monthly Meetin</field>
+        <field name="code">CIDA0146</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0146" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0146"/>
+    </record>
+
+    <record id="aa_activity_cida0147" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Meeting and Refreshment Cost</field>
+        <field name="code">CIDA0147</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0147" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0147"/>
+    </record>
+
+    <record id="aa_activity_cida0148" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Meeting &amp; Refreshment Cost</field>
+        <field name="code">CIDA0148</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0148" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0148"/>
+    </record>
+
+    <record id="aa_activity_cida0149" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Annual Approval Meetings</field>
+        <field name="code">CIDA0149</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0149" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0149"/>
+    </record>
+
+    <record id="aa_activity_cida0150" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Out of  Country 2  PSC Meeting</field>
+        <field name="code">CIDA0150</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0150" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0150"/>
+    </record>
+
+    <record id="aa_activity_cida0151" model="account.analytic.account">
+        <field name="name">4300/167    PIP - 3 Quarterly  Meetings Refreshmt</field>
+        <field name="code">CIDA0151</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0151" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0151"/>
+    </record>
+
+    <record id="aa_activity_cida0152" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Quarterly / AWP Planning Meeting</field>
+        <field name="code">CIDA0152</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0152" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0152"/>
+    </record>
+
+    <record id="aa_activity_cida0153" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Translation of 3 AWPs</field>
+        <field name="code">CIDA0153</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0153" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0153"/>
+    </record>
+
+    <record id="aa_activity_cida0154" model="account.analytic.account">
+        <field name="name">4300/167   PIP - Quarterly Spent Translation</field>
+        <field name="code">CIDA0154</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0154" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0154"/>
+    </record>
+
+    <record id="aa_activity_cida0155" model="account.analytic.account">
+        <field name="name">4700/12   ARCS Staff - Operations Manager</field>
+        <field name="code">CIDA0155</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0155" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0155"/>
+    </record>
+
+    <record id="aa_activity_cida0156" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff -  Operations Officer</field>
+        <field name="code">CIDA0156</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0156" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0156"/>
+    </record>
+
+    <record id="aa_activity_cida0157" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - Operations Officer</field>
+        <field name="code">CIDA0157</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0157" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0157"/>
+    </record>
+
+    <record id="aa_activity_cida0158" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - ARCS Staf Topup DM Staf - HQ</field>
+        <field name="code">CIDA0158</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0158" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0158"/>
+    </record>
+
+    <record id="aa_activity_cida0159" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - ARCS staff Top Up Regions</field>
+        <field name="code">CIDA0159</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0159" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0159"/>
+    </record>
+
+    <record id="aa_activity_cida0160" model="account.analytic.account">
+        <field name="name">1111- 141 -  Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0160</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0160" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0160"/>
+    </record>
+
+    <record id="aa_activity_cida0161" model="account.analytic.account">
+        <field name="name">1111/141- Simulate Evaluate Cont Plan-Consult Fees</field>
+        <field name="code">CIDA0161</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0161" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0161"/>
+    </record>
+
+    <record id="aa_activity_cida0162" model="account.analytic.account">
+        <field name="name">1111/142 -  Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0162</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0162" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0162"/>
+    </record>
+
+    <record id="aa_activity_cida0163" model="account.analytic.account">
+        <field name="name">1111/ 161  - Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0163</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0163" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0163"/>
+    </record>
+
+    <record id="aa_activity_cida0164" model="account.analytic.account">
+        <field name="name">1111/ 161 - Simulations, Evaluator Travel cost</field>
+        <field name="code">CIDA0164</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0164" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0164"/>
+    </record>
+
+    <record id="aa_activity_cida0165" model="account.analytic.account">
+        <field name="name">1111/164 -Simulatn contgency  test wshop  on Flood</field>
+        <field name="code">CIDA0165</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0165" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0165"/>
+    </record>
+
+    <record id="aa_activity_cida0166" model="account.analytic.account">
+        <field name="name">1111/164  - Simulatn - 4 days meal &amp; transport</field>
+        <field name="code">CIDA0166</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0166" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0166"/>
+    </record>
+
+    <record id="aa_activity_cida0167" model="account.analytic.account">
+        <field name="name">1111/164 - Simulatn -  Workshop supplies</field>
+        <field name="code">CIDA0167</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0167" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0167"/>
+    </record>
+
+    <record id="aa_activity_cida0168" model="account.analytic.account">
+        <field name="name">1111/164 - Simulations -   Translation Costs</field>
+        <field name="code">CIDA0168</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0168" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0168"/>
+    </record>
+
+    <record id="aa_activity_cida0169" model="account.analytic.account">
+        <field name="name">1111/164  -Simulations - Travel  SARD DM Delegate</field>
+        <field name="code">CIDA0169</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0169" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0169"/>
+    </record>
+
+    <record id="aa_activity_cida0170" model="account.analytic.account">
+        <field name="name">1111/164  -Simulatn  Translate  updated  SoPs</field>
+        <field name="code">CIDA0170</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0170" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0170"/>
+    </record>
+
+    <record id="aa_activity_cida0171" model="account.analytic.account">
+        <field name="name">1111/164  -Dev DR Response Action Plan  DMR action</field>
+        <field name="code">CIDA0171</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0171" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0171"/>
+    </record>
+
+    <record id="aa_activity_cida0172" model="account.analytic.account">
+        <field name="name">1111/164 -Dev. DR Action Plan -workplan translatn</field>
+        <field name="code">CIDA0172</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0172" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0172"/>
+    </record>
+
+    <record id="aa_activity_cida0173" model="account.analytic.account">
+        <field name="name">1111/164  -  Dev. DR Action Plan - Material Cost</field>
+        <field name="code">CIDA0173</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0173" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0173"/>
+    </record>
+
+    <record id="aa_activity_cida0174" model="account.analytic.account">
+        <field name="name">1113/164 Volunteer and Bcom tools - Caps building</field>
+        <field name="code">CIDA0174</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0174" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0174"/>
+    </record>
+
+    <record id="aa_activity_cida0175" model="account.analytic.account">
+        <field name="name">1140/166 -ICT License - Radios &amp; Oth Communication</field>
+        <field name="code">CIDA0175</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0175" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0175"/>
+    </record>
+
+    <record id="aa_activity_cida0176" model="account.analytic.account">
+        <field name="name">1210/ 166 -  EOC - EOC Mobile Unit</field>
+        <field name="code">CIDA0176</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0176" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0176"/>
+    </record>
+
+    <record id="aa_activity_cida0177" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh Equip 7 veh + radio equipt</field>
+        <field name="code">CIDA0177</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0177" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0177"/>
+    </record>
+
+    <record id="aa_activity_cida0178" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh Equipt - 84 Kits compositn TBD</field>
+        <field name="code">CIDA0178</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0178" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0178"/>
+    </record>
+
+    <record id="aa_activity_cida0179" model="account.analytic.account">
+        <field name="name">1231/166 -DRU Veh/Equipt -Driver  Field Trip</field>
+        <field name="code">CIDA0179</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0179" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0179"/>
+    </record>
+
+    <record id="aa_activity_cida0180" model="account.analytic.account">
+        <field name="name">1232/164  -DRU Training</field>
+        <field name="code">CIDA0180</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0180" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0180"/>
+    </record>
+
+    <record id="aa_activity_cida0181" model="account.analytic.account">
+        <field name="name">1232/164 - DRU/MHT JointTraining in disater Arears</field>
+        <field name="code">CIDA0181</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0181" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0181"/>
+    </record>
+
+    <record id="aa_activity_cida0182" model="account.analytic.account">
+        <field name="name">1240/166 -NFIs  Procurement  delivery  to IFRC WH</field>
+        <field name="code">CIDA0182</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0182" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0182"/>
+    </record>
+
+    <record id="aa_activity_cida0183" model="account.analytic.account">
+        <field name="name">1251/164 - Wshop-ANDMA, ACTORS to update Cont Plan</field>
+        <field name="code">CIDA0183</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0183" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0183"/>
+    </record>
+
+    <record id="aa_activity_cida0184" model="account.analytic.account">
+        <field name="name">1251/164 -Translation Contingency Plan</field>
+        <field name="code">CIDA0184</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0184" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0184"/>
+    </record>
+
+    <record id="aa_activity_cida0185" model="account.analytic.account">
+        <field name="name">2132/164 -Workshop- 3days for 30 staff by Ksultant</field>
+        <field name="code">CIDA0185</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0185" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0185"/>
+    </record>
+
+    <record id="aa_activity_cida0186" model="account.analytic.account">
+        <field name="name">2132/164 - Workshop Training Material PACKAGES</field>
+        <field name="code">CIDA0186</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0186" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0186"/>
+    </record>
+
+    <record id="aa_activity_cida0187" model="account.analytic.account">
+        <field name="name">2141/164-Bencom- Caps Buildin of Foca ToT Pers</field>
+        <field name="code">CIDA0187</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0187" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0187"/>
+    </record>
+
+    <record id="aa_activity_cida0188" model="account.analytic.account">
+        <field name="name">2211/12 - MHT- HR &amp; Advertisment Costs</field>
+        <field name="code">CIDA0188</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0188" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0188"/>
+    </record>
+
+    <record id="aa_activity_cida0189" model="account.analytic.account">
+        <field name="name">2211/12 - MHT -Salary Topups for  40 Medical Staf</field>
+        <field name="code">CIDA0189</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0189" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0189"/>
+    </record>
+
+    <record id="aa_activity_cida0190" model="account.analytic.account">
+        <field name="name">2212/164  -MHT Trainin 2 Rounds  trainin in Kabul</field>
+        <field name="code">CIDA0190</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0190" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0190"/>
+    </record>
+
+    <record id="aa_activity_cida0191" model="account.analytic.account">
+        <field name="name">2212/164 -MHT trainin Pdiem, plus Travel</field>
+        <field name="code">CIDA0191</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0191" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0191"/>
+    </record>
+
+    <record id="aa_activity_cida0192" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin Pdiem ARCS HQ Genda Trainer</field>
+        <field name="code">CIDA0192</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0192" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0192"/>
+    </record>
+
+    <record id="aa_activity_cida0193" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin - Training Supply PACKAGE</field>
+        <field name="code">CIDA0193</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0193" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0193"/>
+    </record>
+
+    <record id="aa_activity_cida0194" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -40 MHT Staf+ 7DM Reg Focal</field>
+        <field name="code">CIDA0194</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0194" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0194"/>
+    </record>
+
+    <record id="aa_activity_cida0195" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin - Pdiem plus Travel</field>
+        <field name="code">CIDA0195</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0195" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0195"/>
+    </record>
+
+    <record id="aa_activity_cida0196" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -4 ARCS HQ Trainer + Gender</field>
+        <field name="code">CIDA0196</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0196" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0196"/>
+    </record>
+
+    <record id="aa_activity_cida0197" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -Trainin Suply PACKAGE</field>
+        <field name="code">CIDA0197</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0197" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0197"/>
+    </record>
+
+    <record id="aa_activity_cida0198" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin-Cost of  MoPH Courses</field>
+        <field name="code">CIDA0198</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0198" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0198"/>
+    </record>
+
+    <record id="aa_activity_cida0199" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -Pdiem &amp; Travel 40 Med STAF</field>
+        <field name="code">CIDA0199</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0199" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0199"/>
+    </record>
+
+    <record id="aa_activity_cida0200" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint Trainin -Disaster  Arears</field>
+        <field name="code">CIDA0200</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0200" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0200"/>
+    </record>
+
+    <record id="aa_activity_cida0201" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint E-Trainin PACK +Translatn</field>
+        <field name="code">CIDA0201</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0201" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0201"/>
+    </record>
+
+    <record id="aa_activity_cida0202" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint Trainin - Regional  Wshop</field>
+        <field name="code">CIDA0202</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0202" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0202"/>
+    </record>
+
+    <record id="aa_activity_cida0203" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint Trainin - Pdiem + travel</field>
+        <field name="code">CIDA0203</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0203" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0203"/>
+    </record>
+
+    <record id="aa_activity_cida0204" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Trainin-2 veh, Driver Focal Per</field>
+        <field name="code">CIDA0204</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0204" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0204"/>
+    </record>
+
+    <record id="aa_activity_cida0205" model="account.analytic.account">
+        <field name="name">2212/164    DRU/MHT Training - Office Location</field>
+        <field name="code">CIDA0205</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0205" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0205"/>
+    </record>
+
+    <record id="aa_activity_cida0206" model="account.analytic.account">
+        <field name="name">2212/164    DRU/MHT Training - Supply PAKAGES</field>
+        <field name="code">CIDA0206</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0206" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0206"/>
+    </record>
+
+    <record id="aa_activity_cida0207" model="account.analytic.account">
+        <field name="name">2213/18      MHT  - Communication Systems - VHF</field>
+        <field name="code">CIDA0207</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0207" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0207"/>
+    </record>
+
+    <record id="aa_activity_cida0208" model="account.analytic.account">
+        <field name="name">2213/166   MHT  - 10 Veh, Radios, Transport</field>
+        <field name="code">CIDA0208</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0208" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0208"/>
+    </record>
+
+    <record id="aa_activity_cida0209" model="account.analytic.account">
+        <field name="name">2221/164  WatSan -Train staff on WATSAN Unit (NHQ)</field>
+        <field name="code">CIDA0209</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0209" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0209"/>
+    </record>
+
+    <record id="aa_activity_cida0210" model="account.analytic.account">
+        <field name="name">2231/164  MoPH Update  Health Contigecy PLAN, ORSH</field>
+        <field name="code">CIDA0210</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0210" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0210"/>
+    </record>
+
+    <record id="aa_activity_cida0211" model="account.analytic.account">
+        <field name="name">2231/164  MoPH - Translation</field>
+        <field name="code">CIDA0211</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0211" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0211"/>
+    </record>
+
+    <record id="aa_activity_cida0212" model="account.analytic.account">
+        <field name="name">3112/164  PMER - Tool Training ToT in PMER</field>
+        <field name="code">CIDA0212</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0212" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0212"/>
+    </record>
+
+    <record id="aa_activity_cida0213" model="account.analytic.account">
+        <field name="name">3120/164  PMER - HQ PMER Trainin for DM, Hlth PMER</field>
+        <field name="code">CIDA0213</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0213" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0213"/>
+    </record>
+
+    <record id="aa_activity_cida0214" model="account.analytic.account">
+        <field name="name">3122/164  PMER -Regional PMER Staff Training</field>
+        <field name="code">CIDA0214</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0214" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0214"/>
+    </record>
+
+    <record id="aa_activity_cida0215" model="account.analytic.account">
+        <field name="name">3130/164  PMER -Report Translation</field>
+        <field name="code">CIDA0215</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0215" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0215"/>
+    </record>
+
+    <record id="aa_activity_cida0216" model="account.analytic.account">
+        <field name="name">3132/164  PMER- Pdiem- 4 PMER Teams Focal</field>
+        <field name="code">CIDA0216</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0216" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0216"/>
+    </record>
+
+    <record id="aa_activity_cida0217" model="account.analytic.account">
+        <field name="name">3132/164  PMER -Pdiem ANDMA Regional Reps</field>
+        <field name="code">CIDA0217</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0217" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0217"/>
+    </record>
+
+    <record id="aa_activity_cida0218" model="account.analytic.account">
+        <field name="name">3132/164  PMER -2 Veh + Drivers 4 Gender Advisor</field>
+        <field name="code">CIDA0218</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0218" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0218"/>
+    </record>
+
+    <record id="aa_activity_cida0219" model="account.analytic.account">
+        <field name="name">3132/164  PMER -Finalise &amp; Translate Report</field>
+        <field name="code">CIDA0219</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0219" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0219"/>
+    </record>
+
+    <record id="aa_activity_cida0220" model="account.analytic.account">
+        <field name="name">3210/164  Appeal  -  DM Support Service Gap</field>
+        <field name="code">CIDA0220</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0220" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0220"/>
+    </record>
+
+    <record id="aa_activity_cida0221" model="account.analytic.account">
+        <field name="name">3210/166   Appeal  -  Procurement of OD  Gaps</field>
+        <field name="code">CIDA0221</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0221" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0221"/>
+    </record>
+
+    <record id="aa_activity_cida0222" model="account.analytic.account">
+        <field name="name">4100/164  Appeal  Meetin  Cost Base Mid End Line</field>
+        <field name="code">CIDA0222</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0222" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0222"/>
+    </record>
+
+    <record id="aa_activity_cida0223" model="account.analytic.account">
+        <field name="name">4200/141  INT. Consult - FEES  of CRC Int. Gender</field>
+        <field name="code">CIDA0223</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0223" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0223"/>
+    </record>
+
+    <record id="aa_activity_cida0224" model="account.analytic.account">
+        <field name="name">4200/161  INT. Consult - Travel of CRC Int Gender</field>
+        <field name="code">CIDA0224</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0224" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0224"/>
+    </record>
+
+    <record id="aa_activity_cida0225" model="account.analytic.account">
+        <field name="name">4200/164  INT Consult -Travel of CRC Int Gender</field>
+        <field name="code">CIDA0225</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0225" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0225"/>
+    </record>
+
+    <record id="aa_activity_cida0226" model="account.analytic.account">
+        <field name="name">4200/164  INT  Consult -Veh (Gas) + Driver</field>
+        <field name="code">CIDA0226</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0226" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0226"/>
+    </record>
+
+    <record id="aa_activity_cida0227" model="account.analytic.account">
+        <field name="name">4200/167  INT  Consult-Personal Dev. Online Course</field>
+        <field name="code">CIDA0227</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0227" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0227"/>
+    </record>
+
+    <record id="aa_activity_cida0228" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Establish DMR TF, Monthly Meetin</field>
+        <field name="code">CIDA0228</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0228" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0228"/>
+    </record>
+
+    <record id="aa_activity_cida0229" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Meeting and Refreshment Cost</field>
+        <field name="code">CIDA0229</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0229" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0229"/>
+    </record>
+
+    <record id="aa_activity_cida0230" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Meeting &amp; Refreshment Cost</field>
+        <field name="code">CIDA0230</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0230" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0230"/>
+    </record>
+
+    <record id="aa_activity_cida0231" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Annual Approval Meetings</field>
+        <field name="code">CIDA0231</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0231" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0231"/>
+    </record>
+
+    <record id="aa_activity_cida0232" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Out of  Country 2  PSC Meeting</field>
+        <field name="code">CIDA0232</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0232" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0232"/>
+    </record>
+
+    <record id="aa_activity_cida0233" model="account.analytic.account">
+        <field name="name">4300/167    PIP - 3 Quarterly  Meetings Refreshmt</field>
+        <field name="code">CIDA0233</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0233" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0233"/>
+    </record>
+
+    <record id="aa_activity_cida0234" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Quarterly / AWP Planning Meeting</field>
+        <field name="code">CIDA0234</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0234" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0234"/>
+    </record>
+
+    <record id="aa_activity_cida0235" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Translation of 3 AWPs</field>
+        <field name="code">CIDA0235</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0235" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0235"/>
+    </record>
+
+    <record id="aa_activity_cida0236" model="account.analytic.account">
+        <field name="name">4300/167   PIP - Quarterly Spent Translation</field>
+        <field name="code">CIDA0236</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0236" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0236"/>
+    </record>
+
+    <record id="aa_activity_cida0237" model="account.analytic.account">
+        <field name="name">4700/12   ARCS Staff - Operations Manager</field>
+        <field name="code">CIDA0237</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0237" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0237"/>
+    </record>
+
+    <record id="aa_activity_cida0238" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff -  Operations Officer</field>
+        <field name="code">CIDA0238</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0238" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0238"/>
+    </record>
+
+    <record id="aa_activity_cida0239" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - Operations Officer</field>
+        <field name="code">CIDA0239</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0239" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0239"/>
+    </record>
+
+    <record id="aa_activity_cida0240" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - ARCS Staf Topup DM Staf - HQ</field>
+        <field name="code">CIDA0240</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0240" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0240"/>
+    </record>
+
+    <record id="aa_activity_cida0241" model="account.analytic.account">
+        <field name="name">4700/12  ARCS Staff - ARCS staff Top Up Regions</field>
+        <field name="code">CIDA0241</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0241" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0241"/>
+    </record>
+
+    <record id="aa_activity_cida0242" model="account.analytic.account">
+        <field name="name">1111- 141 -  Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0242</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0242" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0242"/>
+    </record>
+
+    <record id="aa_activity_cida0243" model="account.analytic.account">
+        <field name="name">1111/141- Simulate Evaluate Cont Plan-Consult Fees</field>
+        <field name="code">CIDA0243</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0243" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0243"/>
+    </record>
+
+    <record id="aa_activity_cida0244" model="account.analytic.account">
+        <field name="name">1111/142 -  Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0244</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0244" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0244"/>
+    </record>
+
+    <record id="aa_activity_cida0245" model="account.analytic.account">
+        <field name="name">1111/ 161  - Base, Mid &amp; End line -Consultant Fees</field>
+        <field name="code">CIDA0245</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0245" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0245"/>
+    </record>
+
+    <record id="aa_activity_cida0246" model="account.analytic.account">
+        <field name="name">1111/ 161 - Simulations, Evaluator Travel cost</field>
+        <field name="code">CIDA0246</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0246" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0246"/>
+    </record>
+
+    <record id="aa_activity_cida0247" model="account.analytic.account">
+        <field name="name">1111/164 -Simulatn contgency  test wshop  on Flood</field>
+        <field name="code">CIDA0247</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0247" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0247"/>
+    </record>
+
+    <record id="aa_activity_cida0248" model="account.analytic.account">
+        <field name="name">1111/164  - Simulatn - 4 days meal &amp; transport</field>
+        <field name="code">CIDA0248</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0248" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0248"/>
+    </record>
+
+    <record id="aa_activity_cida0249" model="account.analytic.account">
+        <field name="name">1111/164 - Simulatn -  Workshop supplies</field>
+        <field name="code">CIDA0249</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0249" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0249"/>
+    </record>
+
+    <record id="aa_activity_cida0250" model="account.analytic.account">
+        <field name="name">1111/164 - Simulations -   Translation Costs</field>
+        <field name="code">CIDA0250</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0250" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0250"/>
+    </record>
+
+    <record id="aa_activity_cida0251" model="account.analytic.account">
+        <field name="name">1111/164  -Simulations - Travel  SARD DM Delegate</field>
+        <field name="code">CIDA0251</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0251" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0251"/>
+    </record>
+
+    <record id="aa_activity_cida0252" model="account.analytic.account">
+        <field name="name">1111/164  -Simulatn  Translate  updated  SoPs</field>
+        <field name="code">CIDA0252</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0252" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0252"/>
+    </record>
+
+    <record id="aa_activity_cida0253" model="account.analytic.account">
+        <field name="name">1111/164  -Dev DR Response Action Plan  DMR action</field>
+        <field name="code">CIDA0253</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0253" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0253"/>
+    </record>
+
+    <record id="aa_activity_cida0254" model="account.analytic.account">
+        <field name="name">1111/164 -Dev. DR Action Plan -workplan translatn</field>
+        <field name="code">CIDA0254</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0254" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0254"/>
+    </record>
+
+    <record id="aa_activity_cida0255" model="account.analytic.account">
+        <field name="name">1111/164  -  Dev. DR Action Plan - Material Cost</field>
+        <field name="code">CIDA0255</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0255" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0255"/>
+    </record>
+
+    <record id="aa_activity_cida0256" model="account.analytic.account">
+        <field name="name">1111/164  -  Dev. DR Action Plan -translation Cost</field>
+        <field name="code">CIDA0256</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0256" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0256"/>
+    </record>
+
+    <record id="aa_activity_cida0257" model="account.analytic.account">
+        <field name="name">1232/164 - DRU/MHT JointTraining in disater Arears</field>
+        <field name="code">CIDA0257</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0257" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0257"/>
+    </record>
+
+    <record id="aa_activity_cida0258" model="account.analytic.account">
+        <field name="name">2211/12 - MHT -Salary Topups for  40 Medical Staf</field>
+        <field name="code">CIDA0258</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0258" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0258"/>
+    </record>
+
+    <record id="aa_activity_cida0259" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin-Cost of  MoPH Courses</field>
+        <field name="code">CIDA0259</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0259" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0259"/>
+    </record>
+
+    <record id="aa_activity_cida0260" model="account.analytic.account">
+        <field name="name">2212/164   MHT Trainin -Pdiem &amp; Travel 40 Med STAF</field>
+        <field name="code">CIDA0260</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0260" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0260"/>
+    </record>
+
+    <record id="aa_activity_cida0261" model="account.analytic.account">
+        <field name="name">2212/164   DRU/MHT Joint Trainin -Disaster  Arears</field>
+        <field name="code">CIDA0261</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0261" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0261"/>
+    </record>
+
+    <record id="aa_activity_cida0262" model="account.analytic.account">
+        <field name="name">2213/18      MHT  - Communication Systems - VHF</field>
+        <field name="code">CIDA0262</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0262" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0262"/>
+    </record>
+
+    <record id="aa_activity_cida0263" model="account.analytic.account">
+        <field name="name">3112/164  PMER - Tool Training ToT in PMER</field>
+        <field name="code">CIDA0263</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0263" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0263"/>
+    </record>
+
+    <record id="aa_activity_cida0264" model="account.analytic.account">
+        <field name="name">3120/164  PMER - HQ PMER Trainin for DM, Hlth PMER</field>
+        <field name="code">CIDA0264</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0264" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0264"/>
+    </record>
+
+    <record id="aa_activity_cida0265" model="account.analytic.account">
+        <field name="name">3122/164  PMER -Regional PMER Staff Training</field>
+        <field name="code">CIDA0265</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0265" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0265"/>
+    </record>
+
+    <record id="aa_activity_cida0266" model="account.analytic.account">
+        <field name="name">3130/164  PMER -Report Translation</field>
+        <field name="code">CIDA0266</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0266" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0266"/>
+    </record>
+
+    <record id="aa_activity_cida0267" model="account.analytic.account">
+        <field name="name">3132/164  PMER- Pdiem- 4 PMER Teams Focal</field>
+        <field name="code">CIDA0267</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0267" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0267"/>
+    </record>
+
+    <record id="aa_activity_cida0268" model="account.analytic.account">
+        <field name="name">3132/164  PMER -Pdiem ANDMA Regional Reps</field>
+        <field name="code">CIDA0268</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0268" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0268"/>
+    </record>
+
+    <record id="aa_activity_cida0269" model="account.analytic.account">
+        <field name="name">3132/164  PMER -2 Veh + Drivers 4 Gender Advisor</field>
+        <field name="code">CIDA0269</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0269" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0269"/>
+    </record>
+
+    <record id="aa_activity_cida0270" model="account.analytic.account">
+        <field name="name">3132/164  PMER -Finalise &amp; Translate Report</field>
+        <field name="code">CIDA0270</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0270" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0270"/>
+    </record>
+
+    <record id="aa_activity_cida0271" model="account.analytic.account">
+        <field name="name">3210/164  Appeal  -  DM Support Service Gap</field>
+        <field name="code">CIDA0271</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0271" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0271"/>
+    </record>
+
+    <record id="aa_activity_cida0272" model="account.analytic.account">
+        <field name="name">3210/166   Appeal  -  Procurement of OD  Gaps</field>
+        <field name="code">CIDA0272</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0272" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0272"/>
+    </record>
+
+    <record id="aa_activity_cida0273" model="account.analytic.account">
+        <field name="name">4100/164  Appeal  Meetin  Cost Base Mid End Line</field>
+        <field name="code">CIDA0273</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0273" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0273"/>
+    </record>
+
+    <record id="aa_activity_cida0274" model="account.analytic.account">
+        <field name="name">4200/141  INT. Consult - FEES  of CRC Int. Gender</field>
+        <field name="code">CIDA0274</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0274" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0274"/>
+    </record>
+
+    <record id="aa_activity_cida0275" model="account.analytic.account">
+        <field name="name">4200/161  INT. Consult - Travel of CRC Int Gender</field>
+        <field name="code">CIDA0275</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0275" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0275"/>
+    </record>
+
+    <record id="aa_activity_cida0276" model="account.analytic.account">
+        <field name="name">4200/164  INT Consult -Travel of CRC Int Gender</field>
+        <field name="code">CIDA0276</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0276" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0276"/>
+    </record>
+
+    <record id="aa_activity_cida0277" model="account.analytic.account">
+        <field name="name">4200/164  INT  Consult -Veh (Gas) + Driver</field>
+        <field name="code">CIDA0277</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0277" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0277"/>
+    </record>
+
+    <record id="aa_activity_cida0278" model="account.analytic.account">
+        <field name="name">4200/167  INT  Consult-Personal Dev. Online Course</field>
+        <field name="code">CIDA0278</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0278" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0278"/>
+    </record>
+
+    <record id="aa_activity_cida0279" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Establish DMR TF, Monthly Meetin</field>
+        <field name="code">CIDA0279</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0279" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0279"/>
+    </record>
+
+    <record id="aa_activity_cida0280" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Meeting and Refreshment Cost</field>
+        <field name="code">CIDA0280</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0280" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0280"/>
+    </record>
+
+    <record id="aa_activity_cida0281" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Meeting &amp; Refreshment Cost</field>
+        <field name="code">CIDA0281</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0281" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0281"/>
+    </record>
+
+    <record id="aa_activity_cida0282" model="account.analytic.account">
+        <field name="name">4300/167     PIP - Annual Approval Meetings</field>
+        <field name="code">CIDA0282</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0282" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0282"/>
+    </record>
+
+    <record id="aa_activity_cida0283" model="account.analytic.account">
+        <field name="name">4300/167    PIP - 3 Quarterly  Meetings Refreshmt</field>
+        <field name="code">CIDA0283</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0283" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0283"/>
+    </record>
+
+    <record id="aa_activity_cida0284" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Quarterly / AWP Planning Meeting</field>
+        <field name="code">CIDA0284</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0284" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0284"/>
+    </record>
+
+    <record id="aa_activity_cida0285" model="account.analytic.account">
+        <field name="name">4300/167    PIP - Translation of 3 AWPs</field>
+        <field name="code">CIDA0285</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0285" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0285"/>
+    </record>
+
+    <record id="aa_activity_cida0286" model="account.analytic.account">
+        <field name="name">4300/167   PIP - Quarterly Spent Translation</field>
+        <field name="code">CIDA0286</field>
+        <field name="plan_id" ref="analytic_plan_activity"/>
+    </record>
+    <record id="activity_cida0286" model="arcs.finance.activity">
+        <field name="analytic_account_id" ref="aa_activity_cida0286"/>
+    </record>
+
+</odoo>

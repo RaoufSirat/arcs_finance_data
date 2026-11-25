@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_region_reader,ARCS region reader,model_arcs_finance_region,group_master_data_reader,1,0,0,0
+access_region_manager,ARCS region manager,model_arcs_finance_region,group_master_data_manager,1,1,1,0
+access_branch_reader,ARCS branch reader,model_arcs_finance_branch,group_master_data_reader,1,0,0,0
+access_branch_manager,ARCS branch manager,model_arcs_finance_branch,group_master_data_manager,1,1,1,0
+access_donor_reader,ARCS donor reader,model_arcs_finance_donor,group_master_data_reader,1,0,0,0
+access_donor_manager,ARCS donor manager,model_arcs_finance_donor,group_master_data_manager,1,1,1,0
+access_program_reader,ARCS program reader,model_arcs_finance_program,group_master_data_reader,1,0,0,0
+access_program_manager,ARCS program manager,model_arcs_finance_program,group_master_data_manager,1,1,1,0
+access_project_reader,ARCS project reader,model_arcs_finance_project,group_master_data_reader,1,0,0,0
+access_project_manager,ARCS project manager,model_arcs_finance_project,group_master_data_manager,1,1,1,0
+access_activity_reader,ARCS activity reader,model_arcs_finance_activity,group_master_data_reader,1,0,0,0
+access_activity_manager,ARCS activity manager,model_arcs_finance_activity,group_master_data_manager,1,1,1,0

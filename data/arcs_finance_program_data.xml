@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- Programme level rows, generated from the ARCS NAV "Project Codes"       -->
+    <!-- dimension. Projects live in arcs_finance_project_data.xml instead,      -->
+    <!-- referencing these via program_id. Regenerate with tools/gen_data.py.    -->
+
+    <record id="aa_project_co00" model="account.analytic.account">
+        <field name="name">Covid 19 (Programme)</field>
+        <field name="code">CO00</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_co00" model="arcs.finance.program">
+        <field name="analytic_account_id" ref="aa_project_co00"/>
+    </record>
+
+    <record id="aa_project_dm00" model="account.analytic.account">
+        <field name="name">Disaster Management Program (Programme)</field>
+        <field name="code">DM00</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_dm00" model="arcs.finance.program">
+        <field name="analytic_account_id" ref="aa_project_dm00"/>
+    </record>
+
+    <record id="aa_project_hp00" model="account.analytic.account">
+        <field name="name">Health Program ( ??????? ???) (Programme)</field>
+        <field name="code">HP00</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_hp00" model="arcs.finance.program">
+        <field name="analytic_account_id" ref="aa_project_hp00"/>
+    </record>
+
+    <record id="aa_project_ird00" model="account.analytic.account">
+        <field name="name">Dissemination Dept. ????? ????? (Programme)</field>
+        <field name="code">IRD00</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_ird00" model="arcs.finance.program">
+        <field name="analytic_account_id" ref="aa_project_ird00"/>
+    </record>
+
+    <record id="aa_project_mp00" model="account.analytic.account">
+        <field name="name">Marasatoon Program (Programme)</field>
+        <field name="code">MP00</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_mp00" model="arcs.finance.program">
+        <field name="analytic_account_id" ref="aa_project_mp00"/>
+    </record>
+
+    <record id="aa_project_od00" model="account.analytic.account">
+        <field name="name">Organizational Development Program (Programme)</field>
+        <field name="code">OD00</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_od00" model="arcs.finance.program">
+        <field name="analytic_account_id" ref="aa_project_od00"/>
+    </record>
+
+    <record id="aa_project_yv00" model="account.analytic.account">
+        <field name="name">Youth &amp; Volunteer Program (Programme)</field>
+        <field name="code">YV00</field>
+        <field name="plan_id" ref="analytic_plan_project"/>
+    </record>
+    <record id="project_yv00" model="arcs.finance.program">
+        <field name="analytic_account_id" ref="aa_project_yv00"/>
+    </record>
+
+</odoo>

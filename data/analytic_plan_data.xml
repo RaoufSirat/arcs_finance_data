@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="analytic_plan_region" model="account.analytic.plan">
+        <field name="name">ARCS Region / Zone</field>
+        <field name="default_applicability">optional</field>
+    </record>
+
+    <record id="analytic_plan_branch" model="account.analytic.plan">
+        <field name="name">ARCS Branch / Collection Point</field>
+        <field name="default_applicability">optional</field>
+    </record>
+
+    <record id="analytic_plan_donor" model="account.analytic.plan">
+        <field name="name">ARCS Donor</field>
+        <field name="default_applicability">optional</field>
+    </record>
+
+    <record id="analytic_plan_project" model="account.analytic.plan">
+        <field name="name">ARCS Project / Programme</field>
+        <field name="default_applicability">optional</field>
+    </record>
+
+    <record id="analytic_plan_activity" model="account.analytic.plan">
+        <field name="name">ARCS Activity</field>
+        <field name="default_applicability">optional</field>
+    </record>
+</odoo>

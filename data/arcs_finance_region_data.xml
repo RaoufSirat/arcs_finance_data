@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- ARCS organisational structure, top two levels.                        -->
+    <!--   HQ  ->  Regions / Zones  ->  Branches (arcs_branch_data.xml)        -->
+    <!-- Regions come from the "Total" rows of the NAV "Branch Codes"          -->
+    <!-- dimension. Regenerate with tools/gen_org_data.py.                     -->
+
+    <!-- ══ Headquarters ═══════════════════════════════════════════════════ -->
+    <record id="aa_region_hq" model="account.analytic.account">
+        <field name="name">ARCS Headquarters</field>
+        <field name="code">HQ</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_hq" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_hq"/>
+        <field name="region_type">hq</field>
+    </record>
+
+    <!-- ══ Regions / Zones ════════════════════════════════════════════════ -->
+    <record id="aa_region_cn00" model="account.analytic.account">
+        <field name="name">Central North Zone</field>
+        <field name="code">CN00</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_cn00" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_cn00"/>
+        <field name="region_type">zone</field>
+        <field name="parent_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_region_cs00" model="account.analytic.account">
+        <field name="name">Central South Zone</field>
+        <field name="code">CS00</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_cs00" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_cs00"/>
+        <field name="region_type">zone</field>
+        <field name="parent_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_region_ez00" model="account.analytic.account">
+        <field name="name">East Zone</field>
+        <field name="code">EZ00</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_ez00" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_ez00"/>
+        <field name="region_type">zone</field>
+        <field name="parent_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_region_mr00" model="account.analytic.account">
+        <field name="name">Marastoon</field>
+        <field name="code">MR00</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_mr00" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_mr00"/>
+        <field name="region_type">zone</field>
+        <field name="parent_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_region_ne00" model="account.analytic.account">
+        <field name="name">North East Zone</field>
+        <field name="code">NE00</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_ne00" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_ne00"/>
+        <field name="region_type">zone</field>
+        <field name="parent_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_region_nz00" model="account.analytic.account">
+        <field name="name">North Zone</field>
+        <field name="code">NZ00</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_nz00" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_nz00"/>
+        <field name="region_type">zone</field>
+        <field name="parent_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_region_sz00" model="account.analytic.account">
+        <field name="name">South Zone</field>
+        <field name="code">SZ00</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_sz00" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_sz00"/>
+        <field name="region_type">zone</field>
+        <field name="parent_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_region_wz00" model="account.analytic.account">
+        <field name="name">West Zone</field>
+        <field name="code">WZ00</field>
+        <field name="plan_id" ref="analytic_plan_region"/>
+    </record>
+    <record id="region_wz00" model="arcs.finance.region">
+        <field name="analytic_account_id" ref="aa_region_wz00"/>
+        <field name="region_type">zone</field>
+        <field name="parent_id" ref="region_hq"/>
+    </record>
+
+</odoo>

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <!-- Provincial branches / collection points, from the "Standard" rows of  -->
+    <!-- the NAV "Branch Codes" dimension. Each one points at its Region in    -->
+    <!-- arcs_finance_region_data.xml, which the manifest loads first.         -->
+    <!-- Regenerate with tools/gen_org_data.py.                                -->
+
+    <record id="aa_branch_c_hspt" model="account.analytic.account">
+        <field name="name">Central Hospital</field>
+        <field name="code">C-HSPT</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_c_hspt" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_c_hspt"/>
+        <field name="region_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_branch_cn01" model="account.analytic.account">
+        <field name="name">Bamyan</field>
+        <field name="code">CN01</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn01" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn01"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cn02" model="account.analytic.account">
+        <field name="name">Daikundi</field>
+        <field name="code">CN02</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn02" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn02"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cn03" model="account.analytic.account">
+        <field name="name">Kabul</field>
+        <field name="code">CN03</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn03" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn03"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cn04" model="account.analytic.account">
+        <field name="name">Kapisa</field>
+        <field name="code">CN04</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn04" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn04"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cn05" model="account.analytic.account">
+        <field name="name">Panjshir</field>
+        <field name="code">CN05</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn05" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn05"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cn06" model="account.analytic.account">
+        <field name="name">Parwan</field>
+        <field name="code">CN06</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn06" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn06"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cn07" model="account.analytic.account">
+        <field name="name">Central North</field>
+        <field name="code">CN07</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn07" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn07"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cn08" model="account.analytic.account">
+        <field name="name">Regional &amp; Branch</field>
+        <field name="code">CN08</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn08" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn08"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cn09" model="account.analytic.account">
+        <field name="name">CN Marastoon</field>
+        <field name="code">CN09</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cn09" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cn09"/>
+        <field name="region_id" ref="region_cn00"/>
+    </record>
+
+    <record id="aa_branch_cs01" model="account.analytic.account">
+        <field name="name">Ghazni</field>
+        <field name="code">CS01</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs01" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs01"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_cs02" model="account.analytic.account">
+        <field name="name">Khost</field>
+        <field name="code">CS02</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs02" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs02"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_cs03" model="account.analytic.account">
+        <field name="name">Logar</field>
+        <field name="code">CS03</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs03" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs03"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_cs04" model="account.analytic.account">
+        <field name="name">Paktia</field>
+        <field name="code">CS04</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs04" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs04"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_cs05" model="account.analytic.account">
+        <field name="name">Paktika</field>
+        <field name="code">CS05</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs05" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs05"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_cs06" model="account.analytic.account">
+        <field name="name">Wardak</field>
+        <field name="code">CS06</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs06" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs06"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_cs07" model="account.analytic.account">
+        <field name="name">Central South</field>
+        <field name="code">CS07</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs07" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs07"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_cs08" model="account.analytic.account">
+        <field name="name">Regional &amp; Branch</field>
+        <field name="code">CS08</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs08" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs08"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_cs09" model="account.analytic.account">
+        <field name="name">CS Marastoon</field>
+        <field name="code">CS09</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_cs09" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_cs09"/>
+        <field name="region_id" ref="region_cs00"/>
+    </record>
+
+    <record id="aa_branch_ez01" model="account.analytic.account">
+        <field name="name">Kunar</field>
+        <field name="code">EZ01</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ez01" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ez01"/>
+        <field name="region_id" ref="region_ez00"/>
+    </record>
+
+    <record id="aa_branch_ez02" model="account.analytic.account">
+        <field name="name">Laghman</field>
+        <field name="code">EZ02</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ez02" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ez02"/>
+        <field name="region_id" ref="region_ez00"/>
+    </record>
+
+    <record id="aa_branch_ez03" model="account.analytic.account">
+        <field name="name">Marastoon Nangarhar</field>
+        <field name="code">EZ03</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ez03" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ez03"/>
+        <field name="region_id" ref="region_ez00"/>
+    </record>
+
+    <record id="aa_branch_ez04" model="account.analytic.account">
+        <field name="name">Nangarhar</field>
+        <field name="code">EZ04</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ez04" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ez04"/>
+        <field name="region_id" ref="region_ez00"/>
+    </record>
+
+    <record id="aa_branch_ez05" model="account.analytic.account">
+        <field name="name">Nooristan</field>
+        <field name="code">EZ05</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ez05" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ez05"/>
+        <field name="region_id" ref="region_ez00"/>
+    </record>
+
+    <record id="aa_branch_ez06" model="account.analytic.account">
+        <field name="name">East Zone</field>
+        <field name="code">EZ06</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ez06" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ez06"/>
+        <field name="region_id" ref="region_ez00"/>
+    </record>
+
+    <record id="aa_branch_ez07" model="account.analytic.account">
+        <field name="name">Regional &amp; Branch</field>
+        <field name="code">EZ07</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ez07" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ez07"/>
+        <field name="region_id" ref="region_ez00"/>
+    </record>
+
+    <record id="aa_branch_hqs" model="account.analytic.account">
+        <field name="name">Headquarters</field>
+        <field name="code">HQS</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_hqs" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_hqs"/>
+        <field name="region_id" ref="region_hq"/>
+    </record>
+
+    <record id="aa_branch_mr01" model="account.analytic.account">
+        <field name="name">Marastoon Kabul</field>
+        <field name="code">MR01</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_mr01" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_mr01"/>
+        <field name="region_id" ref="region_mr00"/>
+    </record>
+
+    <record id="aa_branch_ne01" model="account.analytic.account">
+        <field name="name">Badakhshan</field>
+        <field name="code">NE01</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ne01" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ne01"/>
+        <field name="region_id" ref="region_ne00"/>
+    </record>
+
+    <record id="aa_branch_ne02" model="account.analytic.account">
+        <field name="name">Baghlan</field>
+        <field name="code">NE02</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ne02" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ne02"/>
+        <field name="region_id" ref="region_ne00"/>
+    </record>
+
+    <record id="aa_branch_ne03" model="account.analytic.account">
+        <field name="name">Kunduz</field>
+        <field name="code">NE03</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ne03" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ne03"/>
+        <field name="region_id" ref="region_ne00"/>
+    </record>
+
+    <record id="aa_branch_ne04" model="account.analytic.account">
+        <field name="name">Takhar</field>
+        <field name="code">NE04</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ne04" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ne04"/>
+        <field name="region_id" ref="region_ne00"/>
+    </record>
+
+    <record id="aa_branch_ne05" model="account.analytic.account">
+        <field name="name">North East</field>
+        <field name="code">NE05</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ne05" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ne05"/>
+        <field name="region_id" ref="region_ne00"/>
+    </record>
+
+    <record id="aa_branch_ne06" model="account.analytic.account">
+        <field name="name">Regional &amp; Branch</field>
+        <field name="code">NE06</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ne06" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ne06"/>
+        <field name="region_id" ref="region_ne00"/>
+    </record>
+
+    <record id="aa_branch_ne07" model="account.analytic.account">
+        <field name="name">Marastoon Kunduz</field>
+        <field name="code">NE07</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_ne07" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_ne07"/>
+        <field name="region_id" ref="region_ne00"/>
+    </record>
+
+    <record id="aa_branch_nz01" model="account.analytic.account">
+        <field name="name">Balkh</field>
+        <field name="code">NZ01</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_nz01" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_nz01"/>
+        <field name="region_id" ref="region_nz00"/>
+    </record>
+
+    <record id="aa_branch_nz02" model="account.analytic.account">
+        <field name="name">Faryab</field>
+        <field name="code">NZ02</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_nz02" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_nz02"/>
+        <field name="region_id" ref="region_nz00"/>
+    </record>
+
+    <record id="aa_branch_nz03" model="account.analytic.account">
+        <field name="name">Jawzjan</field>
+        <field name="code">NZ03</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_nz03" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_nz03"/>
+        <field name="region_id" ref="region_nz00"/>
+    </record>
+
+    <record id="aa_branch_nz04" model="account.analytic.account">
+        <field name="name">Marastoon Balkh</field>
+        <field name="code">NZ04</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_nz04" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_nz04"/>
+        <field name="region_id" ref="region_nz00"/>
+    </record>
+
+    <record id="aa_branch_nz05" model="account.analytic.account">
+        <field name="name">Samangan</field>
+        <field name="code">NZ05</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_nz05" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_nz05"/>
+        <field name="region_id" ref="region_nz00"/>
+    </record>
+
+    <record id="aa_branch_nz06" model="account.analytic.account">
+        <field name="name">Sar-e-Pul</field>
+        <field name="code">NZ06</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_nz06" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_nz06"/>
+        <field name="region_id" ref="region_nz00"/>
+    </record>
+
+    <record id="aa_branch_nz07" model="account.analytic.account">
+        <field name="name">North Zone</field>
+        <field name="code">NZ07</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_nz07" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_nz07"/>
+        <field name="region_id" ref="region_nz00"/>
+    </record>
+
+    <record id="aa_branch_nz08" model="account.analytic.account">
+        <field name="name">Regional &amp; Branch</field>
+        <field name="code">NZ08</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_nz08" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_nz08"/>
+        <field name="region_id" ref="region_nz00"/>
+    </record>
+
+    <record id="aa_branch_sz01" model="account.analytic.account">
+        <field name="name">Helmand</field>
+        <field name="code">SZ01</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_sz01" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_sz01"/>
+        <field name="region_id" ref="region_sz00"/>
+    </record>
+
+    <record id="aa_branch_sz02" model="account.analytic.account">
+        <field name="name">Marastoon Kandahar</field>
+        <field name="code">SZ02</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_sz02" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_sz02"/>
+        <field name="region_id" ref="region_sz00"/>
+    </record>
+
+    <record id="aa_branch_sz03" model="account.analytic.account">
+        <field name="name">Kandahar</field>
+        <field name="code">SZ03</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_sz03" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_sz03"/>
+        <field name="region_id" ref="region_sz00"/>
+    </record>
+
+    <record id="aa_branch_sz04" model="account.analytic.account">
+        <field name="name">Uruzgan</field>
+        <field name="code">SZ04</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_sz04" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_sz04"/>
+        <field name="region_id" ref="region_sz00"/>
+    </record>
+
+    <record id="aa_branch_sz05" model="account.analytic.account">
+        <field name="name">Zabul</field>
+        <field name="code">SZ05</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_sz05" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_sz05"/>
+        <field name="region_id" ref="region_sz00"/>
+    </record>
+
+    <record id="aa_branch_sz06" model="account.analytic.account">
+        <field name="name">South Zone</field>
+        <field name="code">SZ06</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_sz06" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_sz06"/>
+        <field name="region_id" ref="region_sz00"/>
+    </record>
+
+    <record id="aa_branch_sz07" model="account.analytic.account">
+        <field name="name">Regional &amp; Branch</field>
+        <field name="code">SZ07</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_sz07" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_sz07"/>
+        <field name="region_id" ref="region_sz00"/>
+    </record>
+
+    <record id="aa_branch_wz01" model="account.analytic.account">
+        <field name="name">Badghis</field>
+        <field name="code">WZ01</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_wz01" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_wz01"/>
+        <field name="region_id" ref="region_wz00"/>
+    </record>
+
+    <record id="aa_branch_wz02" model="account.analytic.account">
+        <field name="name">Farah</field>
+        <field name="code">WZ02</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_wz02" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_wz02"/>
+        <field name="region_id" ref="region_wz00"/>
+    </record>
+
+    <record id="aa_branch_wz03" model="account.analytic.account">
+        <field name="name">Ghor</field>
+        <field name="code">WZ03</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_wz03" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_wz03"/>
+        <field name="region_id" ref="region_wz00"/>
+    </record>
+
+    <record id="aa_branch_wz04" model="account.analytic.account">
+        <field name="name">Herat</field>
+        <field name="code">WZ04</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_wz04" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_wz04"/>
+        <field name="region_id" ref="region_wz00"/>
+    </record>
+
+    <record id="aa_branch_wz05" model="account.analytic.account">
+        <field name="name">Marastoon Herat</field>
+        <field name="code">WZ05</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_wz05" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_wz05"/>
+        <field name="region_id" ref="region_wz00"/>
+    </record>
+
+    <record id="aa_branch_wz06" model="account.analytic.account">
+        <field name="name">Nimroz</field>
+        <field name="code">WZ06</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_wz06" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_wz06"/>
+        <field name="region_id" ref="region_wz00"/>
+    </record>
+
+    <record id="aa_branch_wz07" model="account.analytic.account">
+        <field name="name">West Zone</field>
+        <field name="code">WZ07</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_wz07" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_wz07"/>
+        <field name="region_id" ref="region_wz00"/>
+    </record>
+
+    <record id="aa_branch_wz08" model="account.analytic.account">
+        <field name="name">Regional &amp; Branch</field>
+        <field name="code">WZ08</field>
+        <field name="plan_id" ref="analytic_plan_branch"/>
+    </record>
+    <record id="branch_wz08" model="arcs.finance.branch">
+        <field name="analytic_account_id" ref="aa_branch_wz08"/>
+        <field name="region_id" ref="region_wz00"/>
+    </record>
+
+</odoo>

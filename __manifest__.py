@@ -1,0 +1,21 @@
+{
+    "name": "ARCS Finance Data",
+    "version": "17.0.1.0.0",
+    "summary": "Shared ARCS organizational records and analytic dimensions",
+    "category": "Accounting",
+    "author": "ARCS IT / Custom Development",
+    "license": "LGPL-3",
+    "depends": ["analytic"],
+    "pre_init_hook": "pre_init_hook",
+    "post_init_hook": "post_init_hook",
+    "data": [
+        "security/master_data_security.xml",
+        "security/ir.model.access.csv",
+        "views/arcs_donor_views.xml",
+        "views/arcs_finance_program_views.xml",
+        "views/arcs_finance_project_views.xml",
+        "views/arcs_activity_views.xml",
+        "views/organization_views.xml",
+    ],
+    "installable": True,
+}
